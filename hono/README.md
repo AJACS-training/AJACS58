@@ -61,7 +61,26 @@
 
 ----
 
-##### いざ講習、その前に
+## 研究現場で頻繁に使われるデータベースやツールを知る
+### [統合TV](http://togotv.dbcls.jp/ja/)
+- 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
+    - http://togotv.dbcls.jp/ja/
+[![統合TV トップページ](http://i.gyazo.com/457d7a15c537adc10d9b99596447508f.png)](http://gyazo.com/457d7a15c537adc10d9b99596447508f)
+
+    - YouTube版もあります　http://www.youtube.com/user/togotv/videos
+[![統合TV YouTube支店](http://i.gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e.png)](http://gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e)
+    - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
+        - 1000本を超える動画が公開されており、YouTube版だけで のべ 570,000回以上 再生されています。(2015年12月末現在)
+        - 講義・講習などの参考資料や後輩指導の教材として利用できます。
+        - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
+    - 今回の講習に関連するデータベースやウェブツールは、[統合TV の「発現解析」タグ](http://togotv.dbcls.jp/ja/tags.html?tag=%E7%99%BA%E7%8F%BE%E8%A7%A3%E6%9E%90)から検索できます。
+    - 2014年8月以降に開催された講習会の内容は、そのほとんどが[統合TVで公開](http://togotv.dbcls.jp/ja/tags.html?tag=AJACS)されており、講習会の動画と資料を合わせて、いつでもどこでも繰り返し復習できるようになっています。
+    - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](https://docs.google.com/forms/d/15pxJHnsV_Cu8B55Xy0F3jg5S9FXupkbBqONrZsyUE7k/viewform)へどうぞ!!
+    - 統合TVを作ってみたい方、募集中です。(オンラインでの作成環境を整備しており、遠隔地でもOKです)
+
+----
+
+##### 習熟度ややりたいこと別にご参考ください
 - 本講習内容をスムーズに理解するために押さえておくとよい基礎知識
     - [「塩基配列解析のためのデータベース・ウェブツール」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015033.html)
 - 遺伝子発現データを公共DBで検索・取得・解析する方法について
@@ -75,24 +94,6 @@
     - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
     - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
     - [上記の動画+講習会資料のまとめページ@統合TV](http://togotv.dbcls.jp/ja/tags.html?tag=NGS%E9%80%9F%E7%BF%92%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3)
-
-----
-
-## 研究現場で頻繁に使われるデータベースやツールを知る
-### [統合TV](http://togotv.dbcls.jp/ja/)
-- 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
-    - http://togotv.dbcls.jp/ja/
-[![統合TVトップページ](http://i.gyazo.com/457d7a15c537adc10d9b99596447508f.png)](http://gyazo.com/457d7a15c537adc10d9b99596447508f)
-
-    - YouTube版もあります　http://www.youtube.com/user/togotv/videos
-[![統合TVYouTube支店](http://i.gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e.png)](http://gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e)
-    - ウェブサイトへのアクセスから結果の見方まで、操作の一挙手一投足がわかります。
-        - 講義・講習などの参考資料や後輩指導の教材として利用できます。
-        - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
-        - 今回の講習に関連する内容の多くは、[統合TV の発現制御解析 カテゴリー](http://togotv.dbcls.jp/ja/contents/category/expression)にあります。
-        - 2014年8月以降に開催された講習会の内容は、そのほとんどが[統合TVで公開](http://togotv.dbcls.jp/ja/tags.html?tag=AJACS)されており、講習会の動画と資料を合わせて、いつでもどこでも繰り返し復習できるようになっています。
-    - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](https://docs.google.com/forms/d/15pxJHnsV_Cu8B55Xy0F3jg5S9FXupkbBqONrZsyUE7k/viewform)へどうぞ!!
-    - 統合TVを作ってみたい方、募集中です。(オンラインでの作成環境を整備しており、遠隔地でもOKです)
 
 ----
 
@@ -115,7 +116,7 @@
 ----
 
 ####【実習1】RefExを使って、組織特異的遺伝子を検索する
-- 【復習用】[【RefExの使い方](http://doi.org/10.7875/togotv.2014.009)  [DOI: 10.7875/togotv.2014.009](http://doi.org/10.7875/togotv.2014.009)
+- 【復習用】[RefExの使い方](http://doi.org/10.7875/togotv.2014.009)  [DOI: 10.7875/togotv.2014.009](http://doi.org/10.7875/togotv.2014.009)
 
 1. http://refex.dbcls.jp/ を開きます。
 2. 画面中央の「組織特異的に発現する遺伝子を見る」の臓器アイコンにカーソルを合わせると、更に詳細な部位のアイコンが出るので、調べたい臓器（例として肝臓）をクリックします。  
