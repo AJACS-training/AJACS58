@@ -179,8 +179,8 @@
 ----
 
 ####【実習(skip)】BioGPSを使ってある遺伝子の発現プロファイルを調べる
-- [【復習用】遺伝子発現プロファイルデータベースBioGPSを使い倒す2012](http://www.youtube.com/watch?v=X_exdocRIVQ)
-- [【以前の講習会動画】遺伝子発現データベースの活用法](http://togotv.dbcls.jp/20100829.html#p01)
+- 【復習用】[遺伝子発現プロファイルデータベースBioGPSを使い倒す2012](http://doi.org/10.7875/togotv.2012.075) [DOI: 10.7875/togotv.2012.075](http://doi.org/10.7875/togotv.2012.075)
+- [【以前の講習会動画】遺伝子発現データベースの活用法](http://togotv.dbcls.jp/ja/20100829.html#p01)
 
 1. [http://biogps.org/](http://biogps.org/)を開きます。
 2.骨格筋の分化決定遺伝子であるMyogenic differentiation 1(MyoD)の発現プロファイルを調べてみましょう。中央の検索窓に「myod」と入力し、「search」を押します。
@@ -225,10 +225,10 @@
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
 
 ####【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
-- [【復習用】DAVIDを使ってマイクロアレイデータを解析する 2012](http://youtu.be/WIfe7Z_Mvxg)
-- [【復習用】DAVIDの使い方 実践編](http://youtu.be/4f1t1ma9IRc)
+- 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079) [DOI: 10.7875/togotv.2012.079](http://doi.org/10.7875/togotv.2012.079)
+- 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033) [DOI: 10.7875/togotv.2013.033](http://doi.org/10.7875/togotv.2013.033)
 
-1. 上部メニューの「Start Analysis」をクリックします。
+1. [http://david.abcc.ncifcrf.gov/](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
  [![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)](http://gyazo.com/f976f39aeb060a96a790f0e5b281aabe)
 
