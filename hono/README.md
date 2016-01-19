@@ -69,6 +69,7 @@
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/videos
 [![統合TV YouTube支店](http://i.gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e.png)](http://gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e)
+[![https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c](https://i.gyazo.com/thumb/200/_bfc365143672d15cea9c62363430ab9d.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
     - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
         - 1000本を超える動画が公開されており、YouTube版だけで のべ 570,000回以上 再生されています。(2015年12月末現在)
         - 講義・講習などの参考資料や後輩指導の教材として利用できます。
