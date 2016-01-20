@@ -126,7 +126,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![kegg1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
 
-グローバルマップを見てみよう  
+#### グローバルマップを見てみよう  
 - http://www.kegg.jp/kegg/pathway.html
 - 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
   - 右の [[KEGG Atlus](http://www.kegg.jp/kegg/atlas/?01100)] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
