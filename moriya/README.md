@@ -17,7 +17,8 @@
 
 ---
 ## いろいろなパスウェイデータベース
-pathguid: http://www.pathguide.org/
+#### pathguid
+- ウェブサイト：http://www.pathguide.org/
 - パスウェイリソースのリスト約 550　(2013)
 
 歴史的には代謝経路の表現から始まった  
@@ -169,14 +170,14 @@ Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠している�
 
 #### KEGG はデータベースの集合
 - [KEGG2](http://www.kegg.jp/kegg/kegg2.html) をクリック
-- KEGG PATHWAY を含むシステム情報データベースの他に、遺伝情報、化学情報、健康情報などのデータベース
-- ここでは PATHWAY 以外の詳細は省くので、詳細は過去の AJACS 資料を参照
+- KEGG PATHWAY を含むシステム情報データベースの他に、遺伝情報、化学情報、健康情報などのデータベースがリンクしている
+- ここでは PATHWAY 以外の詳細は省くので、それ以外の詳細は過去の AJACS 資料を参照
   - [AJACS50](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=140912AJACS50_kawano.pdf&refer=AJACS50)
   - [AJACS51](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2014_12_slide.pdf&refer=AJACS51)、[付録資料](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2013_11.pdf&refer=AJACS51)
   - [AJACS53](https://github.com/AJACS-training/AJACS53/tree/master/skwsm)
   - [AJACS54](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=AJACS2015_muto_handout_.pdf&refer=AJACS54)
   
-#### グローバルマップを見てみよう  
+#### Overview マップを見てみよう  
 - http://www.kegg.jp/kegg/pathway.html
 - 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
   - 右の [[KEGG Atlus](http://www.kegg.jp/kegg/atlas/?01100)] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
