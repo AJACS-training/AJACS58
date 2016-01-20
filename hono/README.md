@@ -71,7 +71,7 @@
 [![統合TV YouTube支店](https://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
     - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
         - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
-          - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](https://i.gyazo.com/thumb/800/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
+          - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](https://i.gyazo.com/thumb/600/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
         - 講義・講習などの参考資料や後輩指導の教材として利用できます。
         - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
     - 今回の講習に関連するデータベースやウェブツールは、[統合TV の「発現解析」タグ](http://togotv.dbcls.jp/ja/tags.html?tag=%E7%99%BA%E7%8F%BE%E8%A7%A3%E6%9E%90)から検索できます。  
