@@ -6,35 +6,38 @@
 
 ---
 ## パスウェイデータベースとは
-タンパク質や化合物等の分子間相互作用のネットワークをデータベース化したもの
+タンパク質や化合物等の分子間相互作用のネットワークをデータベース化、視覚化したもの
 
 イメージ (KEGG)
 ![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
+
+可視化することで生命現象を理解しやすくする  
+データベース化することでゲノムアノテーションや種間比較、遺伝子発現のエンリッチメント解析、モデル化、シミュレーションなどに利用できるようになる  
 
 歴史的には代謝経路の表現から始まった  
 現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
 
 ---
 ## いろいろなパスウェイデータベース
-- pathguid: http://www.pathguide.org/  
-  - パスウェイリソースのリスト（540 以上）
+pathguid: http://www.pathguide.org/
+- パスウェイリソースのリスト約 550　(2013)
+  - タンパク質間相互作用
+  - 代謝パスウェイ
+  - シグナリングパスウェイ
+  - パスウェイダイアグラム
+  - 転写因子・遺伝子制御ネットワーク
+  - タンパク質-化合物間相互作用
+  - 遺伝的相互作用ネットワーク
+  - アミノ酸配列解析
+  - その他
 
-- タンパク質間相互作用
-- 代謝パスウェイ
-- シグナリングパスウェイ
-- パスウェイダイアグラム
-- 転写因子・遺伝子制御ネットワーク
-- タンパク質-化合物間相互作用
-- 遺伝的相互作用ネットワーク
-- アミノ酸配列解析
-- その他
-
-Availability: 有料か無料か
+Availability: 有料か無料か  
 Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどうか
 - BioPAX は静的なマップ表現
 - SBML は kinetics も取り扱えるため、シミュレーションなどで利用可能
 
-どのパスウェイデータベースを使えば良いかは、対象生物や対象パスウェイ、目的によって異なる  
+どのパスウェイデータベースを解析に使えば良いかは、対象生物や対象パスウェイ、目的によって異なる
+ここでは BioCyc, Reactome, KEGG PATHWAY を紹介する
 
 ----
 ## BioCyc
@@ -59,7 +62,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 
 #### 好きな生物のパスウェイを見てみよう  
-- 好きな生物種をクリック（例： [EcCyc](http://biocyc.org/ecocyc/index.shtml)）
+- 好きな生物種をクリック（例： [EcoCyc](http://biocyc.org/ecocyc/index.shtml)）
 - 上のメニューの Metabolism から [Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml) を選択
 ![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
 
@@ -74,8 +77,8 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - 右のメニューの Overlay Experimental Data ＞ Upload Data from File
 - 出てきた入力フォームのファイルアップロード部のすぐ下の (or "paste data" directly into form) のリンクをクリック
 ![biocyc4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc4.png)
-- テキストエリアに切り替わるので、テキストエリア右上のサンプル（Gene example）をクリック
-- データのカラム（1）を入力して Submit ボタンをクリック
+- テキストエリアに切り替わるので、テキストエリア右上の Gene example をクリックすると、サンプル・データが入る
+- データのカラム（1〜3）を入力して Submit ボタンをクリック
 ![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
 
 
