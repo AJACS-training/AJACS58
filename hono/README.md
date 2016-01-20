@@ -122,24 +122,13 @@
 
 1. http://refex.dbcls.jp/ を開きます。
 2. 画面中央の「組織特異的に発現する遺伝子を見る」の臓器アイコンにカーソルを合わせると、更に詳細な部位のアイコンが出るので、調べたい臓器（例として肝臓）をクリックします。  
-
- [![Gyazo](http://i.gyazo.com/fab7f0ba81afbce32061692c344bf03f.png)](http://gyazo.com/fab7f0ba81afbce32061692c344bf03f)
 [![https://gyazo.com/35c8f38340753e8f433cb8c4d8fd812b](https://i.gyazo.com/35c8f38340753e8f433cb8c4d8fd812b.jpg)](https://gyazo.com/35c8f38340753e8f433cb8c4d8fd812b)
 3. 検索結果一覧が表示されます。検索結果一覧では、「ソート項目の切り替え」や「絞り込み検索」、「リストへの追加」ができます。(手順11以降で解説します。)
 4. 各遺伝子の青字の部分（例 [fibrinogen alpha chain](http://refex.dbcls.jp/gene_info.php?lang=ja&db=human&geneID=2243&refseq=NM_000508&unigene=Hs.351593&probe=205649_s_at))をクリックすると詳細情報を閲覧できます。
-
- [![Gyazo](http://i.gyazo.com/2a250c033aac172fae84b89033e1b225.png)](http://gyazo.com/2a250c033aac172fae84b89033e1b225)
-
 5. 「ヒートマップ on Bodyparts3D」では、表示する部位の切り替え（全身・体幹部・頭部）ができます。「皮膚・骨格筋を表示」もしくは「アニメーション表示」にチェックを入れるとどのように表示されるでしょうか。
 6. 「組織40分類別データ」では、バーの上にマウスオーバーすると測定部位と発現値が表示されます。
-
- [![Gyazo](http://i.gyazo.com/b60518629c6dd0fe8163776cc7824a3c.png)](http://gyazo.com/b60518629c6dd0fe8163776cc7824a3c)
-
 7. 「Download」をクリックすると、表示中の遺伝子の組織40分類別の発現データがタブ区切り形式でダウンロードできます。
 8. 「Probe set ID」のリンク先をクリックすると、どういう情報が参照できるでしょうか。
-
- [![Gyazo](http://i.gyazo.com/78a17e8253cb9ed64f6becf96b5a1e03.png)](http://gyazo.com/78a17e8253cb9ed64f6becf96b5a1e03)
-
 9. 遺伝子オントロジー([Gene Ontology](http://array.cell-innovator.com/?p=1085):GO ID)をクリックすると、そのGO termを持つ他の遺伝子を一括で検索できます。
  - 例として、[GO:0007596](http://refex.dbcls.jp/genelist.php?lang=ja&db=human&idkind=1&ids=GO:0007596)   blood coagulation をクリックしてみましょう。
 10. 右側のFANTOM5 CAGEのタブをクリックすると、FANTOM5 CAGEデータのビューアに切り替わります。
@@ -148,6 +137,7 @@
  - 右側に、サンプル名と発現値、サンプル分類が表示されます。
  - [RefEx用に整理したサンプル情報一覧](http://bit.ly/fantom5cagehuman)も閲覧可能です。
 11. 検索結果一覧に戻ります。ソート項目を切り替えて、どのように結果が変わるでしょうか。
+[![検索結果一覧](https://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)](https://gyazo.com/5e87d20d9b31711e797ef17677be7263)
 12. 様々な条件で検索結果を絞り込むことができます。絞り込み検索は左のバーから行えます。
  - 遺伝子名に「liver」を含むデータは何件あるでしょうか。
  - 「遺伝子名」の下の「条件なし」をクリックして表示されるウインドウに「liver」と入力し、「Include」をクリックし、「この条件で絞り込み」を押します。
