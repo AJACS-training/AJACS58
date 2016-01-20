@@ -263,7 +263,7 @@
 
 ---
 
-####【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する その2
+####【実習2】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
 - DAVID の使い方に慣れてきたところで、実戦的な生物学的解釈に挑戦してみましょう。
 - 今回は「正解」はありません。情報分析力と想像力が問われます。
 - 例題は、[GSE28619](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28619) をつかいます。
@@ -272,4 +272,15 @@
      - 「健常者＞AH患者_遺伝子リスト」[GEO2R_Ctrl.txt](https://raw.githubusercontent.com/AJACS-training/AJACS55/master/hono/GEO2R_Ctrl.txt)
      - 「AH患者＞健常者_遺伝子リスト」[GEO2R_AH.txt](https://raw.githubusercontent.com/AJACS-training/AJACS55/master/hono/GEO2R_AH.txt)
      - (この遺伝子リストの作り方は、[AJACS御茶ノ水の回](https://github.com/AJACS-training/AJACS53/blob/master/yoki/) で解説しています。)
-  - このデータを使った論文 ([Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703))も出ていますが、答え合わせをするもよし、著者らが見逃している着眼点はないか探すもよし、です。
+- DAVID 以外のツールを使ってみる
+  - DAVIDでは主にGeneOntologyを見ていましたが、医学・薬学分野に特化した情報を解析対象にした[GeneSetDB](http://genesetdb.auckland.ac.nz/haeremai.html) を使ってみるという手もあります。
+  - 統合TVあります → [GeneSetDBで遺伝子解析とエンリッチメント解析を行う](http://togotv.dbcls.jp/ja/20160102.html)
+  - [2:50~ エンリッチメント解析を行う](https://www.youtube.com/watch?v=qqF19PaURsA&feature=youtu.be&t=2m50s)     
+- 一応ひとつの答え
+  - このデータを使った論文 ([Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703))
+  - 似たような結論が導かれましたか? あるいは、著者らが見逃している(かもしれない)着眼点や新たな着想が得られましたか?
+
+## まとめ
+- つまみ食い的ではありますが通り一遍の大規模発現データに対する生物学的解釈の方法を学びました。
+- ぜひご自身のデータ、あるいはご自身のテーマに関連する公共データの生物学的解釈をしてみましょう。
+- 実戦≒実践あるのみ
