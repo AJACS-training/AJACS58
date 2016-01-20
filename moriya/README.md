@@ -65,33 +65,33 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 #### 好きな生物のパスウェイを見てみよう
 - 好きな生物種をクリック（例： [EcoCyc](http://biocyc.org/ecocyc/index.shtml)）
 - 右上の検索ボックスで "glycolysis" や "tca" などの好きな単語を入力し、Quick Search ボタンをクリック
-![biocyc6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc6.png)
+- ![biocyc6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc6.png)
 - パスウェイが存在する場合、リストが表示されるので、クリック
 - 代謝産物のパスウェイが表示される
 - More Detail ボタンをクリックすると、酵素の情報が追加され、もう一度 More Detail ボタンをクリックすると代謝産物の構造情報が追加される
 - 右の Options メニューから、表示のカスタマイズやダウンロードが可能
-![biocyc3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
+- ![biocyc3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
 
 
 #### 種間比較をしてみよう
 - 右の Option メニューの [Species Comparison](http://ecocyc.org/compare-frame-in-orgs?type=PATHWAY&object=GLYCOLYSIS&initial-orgs=(ECOLI)&detail-level=1) をクリック
 - 比較する種の選択画面が表示されるので、比較したい好きな種を入力し、OK をクリック
-![biocyc7](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc7.png)
+- ![biocyc7](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc7.png)
 - パスウェイや遺伝子、オペロン構造などが比較できる
 
 
 #### 好きな生物の Overview パスウェイを見てみよう  
 - 右の Option メニューの [Show on Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml?orgid=ECOLI&pnids=GLYCOLYSIS) をクリック
-![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
+- ![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
 
 
 ### サンプル・データをマッピングしてみよう  
 - 右のメニューの Overlay Experimental Data ＞ Upload Data from File
 - 出てきた入力フォームのファイルアップロード部のすぐ下の (or "paste data" directly into form) のリンクをクリック
-![biocyc4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc4.png)
+- ![biocyc4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc4.png)
 - テキストエリアに切り替わるので、テキストエリア右上の Gene example をクリックすると、サンプル・データが入る
 - データのカラム（1〜3）を入力して Submit ボタンをクリック
-![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
+- ![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
 
 
 ----
