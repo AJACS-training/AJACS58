@@ -116,25 +116,26 @@ Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠している�
 #### 好きな生物のパスウェイを見てみよう  
 - [Browse Pathways](http://www.reactome.org/PathwayBrowser/) ボタンをクリック
 - 初期画面はヒトのパスウェイなので、好きな種を選択
-![reactome2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome2.png)
+- ![reactome2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome2.png)
 - 左のパスウェイのリスト、右のパスウェイマップが連動
   - 下層になると、ダイヤグラムが表示される
   - Reactome には代謝パスウェイの他に制御系も含むため、ノードとエッジの関係が複数ある
-![reactome5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome5.png)
+- ![reactome5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome5.png)
 
 #### パスウェイをハイライトさせてみよう  
 - マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis" や "tca" などの単語を入力すると、候補がリストアップされるので選択
-![reactome3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome3.png)
+- ![reactome3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome3.png)
 
 #### サンプル・データをマッピングしてみよう
 - サンプルがヒトしか無いので、ヒトのパスウェイに移動
 - 上、右側の Analysis: アイコンをクリック
 - ファイルアップロード部のすぐ下の click here to paste your data... をクリック
-![reactome4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome4.png)
+- ![reactome4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome4.png)
 - 右のサンプルをクリックして GO ボタンをクリック
   - ID リストの場合は Over-representation 解析 (ORA）, Enrichment 解析
   - ID と数値のリストの場合は発現解析
     - 再生ボタンで、複数のカラムのデータを連続表示
+- ![reactome6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome6.png)
 
 詳細は [Usersguide](http://wiki.reactome.org/index.php/Usersguide) を参照  
 
