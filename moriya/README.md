@@ -6,13 +6,16 @@
 
 ---
 ## パスウェイデータベースとは
-タンパク質や化合物等の分子間相互作用のネットワークをデータベース化したもの  
-歴史的には代謝経路の表現から始まった
+タンパク質や化合物等の分子間相互作用のネットワークをデータベース化したもの
+
+イメージ (KEGG)
+![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
+
+歴史的には代謝経路の表現から始まった  
 現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
 
-![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
 ---
-## パスウェイデータベース
+## いろいろなパスウェイデータベース
 - pathguid: http://www.pathguide.org/  
   - パスウェイリソースのリスト（540 以上）
 
