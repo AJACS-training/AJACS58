@@ -12,7 +12,8 @@
 ![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
 
 可視化することで生命現象を理解しやすくする  
-データベース化することでゲノムアノテーションや種間比較、遺伝子発現のエンリッチメント解析、モデル化、シミュレーションなどに利用できるようになる  
+データベース化することで網羅的に扱えるようになる
+- ゲノムアノテーションや種間比較、遺伝子発現のエンリッチメント解析、モデル化、シミュレーションなどに利用できるようになる  
 
 歴史的には代謝経路の表現から始まった  
 現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
@@ -36,7 +37,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - BioPAX は静的なマップ表現
 - SBML は kinetics も取り扱えるため、シミュレーションなどで利用可能
 
-どのパスウェイデータベースを解析に使えば良いかは、対象生物や対象パスウェイ、目的によって異なる
+どのパスウェイデータベースを解析に使えば良いかは、対象生物や対象パスウェイ、目的によって異なる  
 ここでは BioCyc, Reactome, KEGG PATHWAY を紹介する
 
 ----
@@ -61,16 +62,27 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
   - MetaCyc だけは 2,000 種以上から構築
 
 
-#### 好きな生物のパスウェイを見てみよう  
+#### 好きな生物のパスウェイを見てみよう
 - 好きな生物種をクリック（例： [EcoCyc](http://biocyc.org/ecocyc/index.shtml)）
-- 上のメニューの Metabolism から [Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml) を選択
-![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
-
-
-#### パスウェイ、反応、遺伝子などをハイライトさせてみよう  
-- 右のメニューの Highlight ＞ Highlight Pathway(s) ＞ By Name or Frame ID を選択
-- 出てきたテキストボックスに "glycolysis"や"tca"などの単語を入力すると、候補がリストアップされるので選択し、Highlightボタンをクリック
+- 右上の検索ボックスで "glycolysis" や "tca" などの好きな単語を入力し、Quick Search ボタンをクリック
+![biocyc6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc6.png)
+- パスウェイが存在する場合、リストが表示されるので、クリック
+- 代謝産物のパスウェイが表示される
+- More Detail ボタンをクリックすると、酵素の情報が追加され、もう一度 More Detail ボタンをクリックすると代謝産物の構造情報が追加される
+- 右の Options メニューから、表示のカスタマイズやダウンロードが可能
 ![biocyc3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
+
+
+#### 種間比較をしてみよう
+- 右の Option メニューの [Species Comparison](http://ecocyc.org/compare-frame-in-orgs?type=PATHWAY&object=GLYCOLYSIS&initial-orgs=(ECOLI)&detail-level=1) をクリック
+- 比較する種の選択画面が表示されるので、比較したい好きな種を入力し、OK をクリック
+![biocyc7](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc7.png)
+- パスウェイや遺伝子、オペロン構造などが比較できる
+
+
+#### 好きな生物の Overview パスウェイを見てみよう  
+- 右の Option メニューの [Show on Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml?orgid=ECOLI&pnids=GLYCOLYSIS) をクリック
+![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
 
 
 ### サンプル・データをマッピングしてみよう  
