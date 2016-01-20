@@ -48,7 +48,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc1.png)
 
-対象生物種(Tier1, 2, 3)を見よう  
+対象生物種(Tier1, 2, 3)を見てみよう  
 - http://biocyc.org/biocyc-pgdb-list.shtml
   - 種毎の Database
   - MetaCyc だけは 2,000 種以上から構築
@@ -126,22 +126,22 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![kegg1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
 
-グローバルマップを見てみよう
+グローバルマップを見てみよう  
 -　http://www.kegg.jp/kegg/pathway.html
 - 1.0 Global and overview maps の Metabolic pathways をクリック
   - 右の [KEGG Atlus] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
 - 左にモジュールのリスト（KEGG におけるパスウェイの小さい機能単位）、右にマップが表示
 - 機能単位毎にパスウェイを強調表示できる
 
-生物種毎のグローバルマップを見てみよう
+生物種毎のグローバルマップを見てみよう  
 - プルダウンメニューから生物を選択し、Go をクリック
 
-個別のパスウェイマップを見てみよう
+個別のパスウェイマップを見てみよう  
 -　http://www.kegg.jp/kegg/pathway.html
 - 1.1 以下の好きなパスウェイをクリック
   - 右上の Help でそれぞれの図形の意味を見てみよう
 
-好きな生物のパスウェイを見てみよう
+好きな生物のパスウェイを見てみよう  
 - 緑色の箱で、その生物の持つパスウェイを表現
 
 リファレンスパスウェイと種毎のパスウェイの関係
@@ -150,20 +150,20 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![kegg3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg3.png)
 
-対象生物種を見てみよう
+対象生物種を見てみよう  
 - http://www.kegg.jp/kegg/catalog/org_list.html
   - KEGG では 3-4 文字の独自の生物種コードを使用している
   - データが手作業で修正されているか自動ツールで作成されているかはテーブルには情報が無い
   - 生物種コードのリンクをクリックすると、種の情報のページに飛ぶ
   - "Annotation" が manual -> 手作業（hsa等）、KOALA -> 自動ツール（pps等）
 
-サンプル・データをマッピングしてみよう
+サンプル・データをマッピングしてみよう  
 - http://www.genome.jp/kegg/tool/map_pathway2.html
 - KEGG Mapper
 
-KEGG データベースにはない新規遺伝子をマッピングしてみよう
+KEGG データベースにはない新規遺伝子をマッピングしてみよう  
 - BlastKOALA, ghostKOALA, KAAS
 
-KGML ファイルをダウンロードしてみよう
+KGML ファイルをダウンロードしてみよう  
 
 --
