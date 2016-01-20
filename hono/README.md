@@ -65,13 +65,13 @@
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-[![Gyazo](https://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)](https://gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840)
+[![Gyazo](http://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)](https://gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840)
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/
-[![統合TV YouTube支店](https://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
+[![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
     - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
         - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
-        - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](https://i.gyazo.com/thumb/600/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
+        - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](http://i.gyazo.com/thumb/600/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
         - 講義・講習などの参考資料や後輩指導の教材として利用できます。
         - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
 
@@ -138,16 +138,16 @@
 9. 遺伝子オントロジー([Gene Ontology](http://array.cell-innovator.com/?p=1085):GO ID)をクリックすると、そのGO termを持つ他の遺伝子を一括で検索できます。
  - 例として、[GO:0007596](http://refex.dbcls.jp/genelist.php?lang=ja&db=human&idkind=1&ids=GO:0007596)   blood coagulation をクリックしてみましょう。
 
- [![遺伝子詳細情報](https://i.gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15.jpg)](https://gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15)
+ [![遺伝子詳細情報](http://i.gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15.jpg)](https://gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15)
 
 10. 右側のFANTOM5 CAGEのタブをクリックすると、FANTOM5 CAGEデータのビューアに切り替わります。
  - ビューアは上部が拡大図で、下部が全体表示になっています。
  - 検索窓にキーワードを入れるとサンプル名を検索できます。ヒットしたサンプルはオレンジ色で強調されます。
  - 右側に、サンプル名と発現値、サンプル分類が表示されます。
  - [RefEx用に整理したサンプル情報一覧](http://bit.ly/fantom5cagehuman)も閲覧可能です。
-[![FANTOM5 CAGE Viewer](https://i.gyazo.com/51d0b3db07efe64a6fdafb054cd4217f.jpg)](https://gyazo.com/51d0b3db07efe64a6fdafb054cd4217f)
+[![FANTOM5 CAGE Viewer](http://i.gyazo.com/51d0b3db07efe64a6fdafb054cd4217f.jpg)](https://gyazo.com/51d0b3db07efe64a6fdafb054cd4217f)
 11. 検索結果一覧に戻ります。ソート項目を切り替えて、どのように結果が変わるでしょうか。
-[![検索結果一覧](https://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)](https://gyazo.com/5e87d20d9b31711e797ef17677be7263)
+[![検索結果一覧](http://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)](https://gyazo.com/5e87d20d9b31711e797ef17677be7263)
 12. 様々な条件で検索結果を絞り込むことができます。絞り込み検索は左のバーから行えます。
  - 遺伝子名に「liver」を含むデータは何件あるでしょうか。
  - 「遺伝子名」の下の「条件なし」をクリックして表示されるウインドウに「liver」と入力し、「Include」をクリックし、「この条件で絞り込み」を押します。
@@ -160,8 +160,8 @@
  - 「リストを見る」をクリックするとリストに移動します。
  - 『並べて表示する』にチェックを入れて、「遺伝子を並べて表示」をクリックします。
  - 並列に比較することで見えてくる「違い」はなんでしょうか。
-[![並列比較1](https://i.gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8.jpg)](https://gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8)
-[![並列比較2](https://i.gyazo.com/3f2f9e5cbf135a2c298ae164d6360302.jpg)](https://gyazo.com/3f2f9e5cbf135a2c298ae164d6360302)
+[![並列比較1](http://i.gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8.jpg)](https://gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8)
+[![並列比較2](http://i.gyazo.com/3f2f9e5cbf135a2c298ae164d6360302.jpg)](https://gyazo.com/3f2f9e5cbf135a2c298ae164d6360302)
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 ----
