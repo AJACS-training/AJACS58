@@ -18,7 +18,7 @@
 ---
 ## いろいろなパスウェイデータベース
 #### pathguid
-- ウェブサイト：http://www.pathguide.org/
+- http://www.pathguide.org/
 - パスウェイリソースのリスト約 550　(2013)
 
 歴史的には代謝経路の表現から始まった  
@@ -35,13 +35,17 @@
   - その他
 
 Availability: 有料か無料か  
-Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠しているかどうか
+Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどうか
+
+#### パスウェイデータベースのデータ形式
+XML で記述されていることが多い  
 - BioPAX (Biological Pathways Exchange) は静的なマップ表現
   - Level 1：代謝パスウェイ
   - Level 2：タンパク質間相互作用
   - Level 3：シグナル伝達
-- SBML (Systems Biology Markup Language) は kinetics も取り扱えるため、シミュレーションなどで利用可能
-- PSI-MI (Proteomics Standards Initiative Molecular Interaction XML Format) はタンパク質間相互作用のみ
+- SBML (Systems Biology Markup Language)、CellML、CSML (Cell System Markup Language)は kinetics も取り扱えるため、シミュレーションなどで利用可能
+- PSI-MI (Proteomics Standards Initiative Molecular Interaction XML Format) はタンパク質間相互作用を記述
+- KGML (KEGG Markup Language) は KEGG 独自のフォーマット
 
 どのパスウェイデータベースを解析に使えば良いかは、対象生物や対象パスウェイ、目的によって異なる  
 ここでは BioCyc, Reactome, KEGG PATHWAY を紹介する
