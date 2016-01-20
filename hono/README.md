@@ -65,13 +65,13 @@
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-[![統合TV トップページ](https://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)](https://gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840)
+[![Gyazo](https://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)](https://gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840)
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/
 [![統合TV YouTube支店](https://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
     - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
         - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
-          - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](https://i.gyazo.com/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
+          - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](https://i.gyazo.com/thumb/800/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
         - 講義・講習などの参考資料や後輩指導の教材として利用できます。
         - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
     - 今回の講習に関連するデータベースやウェブツールは、[統合TV の「発現解析」タグ](http://togotv.dbcls.jp/ja/tags.html?tag=%E7%99%BA%E7%8F%BE%E8%A7%A3%E6%9E%90)から検索できます。  
@@ -117,7 +117,7 @@
 
 ----
 
-####【実習1】RefExを使って、組織特異的遺伝子を検索する
+#### 【実習1】RefExを使って、組織特異的遺伝子を検索する
 - 【復習用】[RefExの使い方](http://doi.org/10.7875/togotv.2014.009)  [DOI: 10.7875/togotv.2014.009](http://doi.org/10.7875/togotv.2014.009)
 
 1. http://refex.dbcls.jp/ を開きます。
@@ -172,7 +172,7 @@
 
 ----
 
-####【実習(skip)】BioGPSを使ってある遺伝子の発現プロファイルを調べる
+#### 【実習(skip)】BioGPSを使ってある遺伝子の発現プロファイルを調べる
 - 【復習用】[遺伝子発現プロファイルデータベースBioGPSを使い倒す2012](http://doi.org/10.7875/togotv.2012.075) [DOI: 10.7875/togotv.2012.075](http://doi.org/10.7875/togotv.2012.075)
 - [【以前の講習会動画】遺伝子発現データベースの活用法](http://togotv.dbcls.jp/ja/20100829.html#p01)
 
@@ -218,7 +218,7 @@
 
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
 
-####【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
+#### 【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
 - 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079) [DOI: 10.7875/togotv.2012.079](http://doi.org/10.7875/togotv.2012.079)
 - 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033) [DOI: 10.7875/togotv.2013.033](http://doi.org/10.7875/togotv.2013.033)
 
@@ -263,7 +263,7 @@
 
 ---
 
-####【実習2】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
+#### 【実習2】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
 - DAVID の使い方に慣れてきたところで、実戦的な生物学的解釈に挑戦してみましょう。
 - 今回は「正解」はありません。情報分析力と想像力が問われます。
 - 例題は、[GSE28619](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28619) をつかいます。
