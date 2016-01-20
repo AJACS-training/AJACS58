@@ -127,9 +127,9 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 ![kegg1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
 
 グローバルマップを見てみよう  
--　http://www.kegg.jp/kegg/pathway.html
-- 1.0 Global and overview maps の Metabolic pathways をクリック
-  - 右の [KEGG Atlus] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
+- http://www.kegg.jp/kegg/pathway.html
+- 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
+  - 右の [[KEGG Atlus](http://www.kegg.jp/kegg/atlas/?01100)] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
 - 左にモジュールのリスト（KEGG におけるパスウェイの小さい機能単位）、右にマップが表示
 - 機能単位毎にパスウェイを強調表示できる
 
@@ -137,7 +137,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - プルダウンメニューから生物を選択し、Go をクリック
 
 個別のパスウェイマップを見てみよう  
--　http://www.kegg.jp/kegg/pathway.html
+- http://www.kegg.jp/kegg/pathway.html
 - 1.1 以下の好きなパスウェイをクリック
   - 右上の Help でそれぞれの図形の意味を見てみよう
 
