@@ -32,7 +32,7 @@
 - 数十～数千の遺伝子群の生物学的解釈
     - DAVID
         - 【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
-        - 【実習3】DAVIDを用いて、発現データの結果を生物学的に解釈する その2
+        - 【実習3】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
 
 ----
 
@@ -268,7 +268,7 @@
 
 ---
 
-#### 【実習2】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
+#### 【実習3】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
 - DAVID の使い方に慣れてきたところで、実戦的な生物学的解釈に挑戦してみましょう。
 - 今回は「正解」はありません。情報分析力と想像力が問われます。
 - 例題は、[GSE28619](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28619) をつかいます。
@@ -282,7 +282,8 @@
   - 統合TVあります → [GeneSetDBで遺伝子解析とエンリッチメント解析を行う](http://togotv.dbcls.jp/ja/20160102.html)
   - [2:50~ エンリッチメント解析を行う](https://www.youtube.com/watch?v=qqF19PaURsA&feature=youtu.be&t=2m50s)     
 - 一応ひとつの答え
-  - このデータを使った論文 ([Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703))
+  - このデータを使った論文があります。
+    - [Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703))
   - 似たような結論が導かれましたか? あるいは、著者らが見逃している(かもしれない)着眼点や新たな着想が得られましたか?
 
 ## まとめ
