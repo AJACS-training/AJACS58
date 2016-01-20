@@ -10,7 +10,7 @@
 歴史的には代謝経路の表現から始まった
 現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
 
-![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_pathway.png)
+[![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_pathway.png)](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_pathway.png)
 
 ---
 ## パスウェイデータベース
@@ -46,7 +46,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - 利用：アカデミックフリー
 - データ形式：BioPAX SBML
 
-![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_biocyc1.png)
+[![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_biocyc1.png)](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58_biocyc1.png)
 
 対象生物種(Tier1, 2, 3)を見よう  
 - http://biocyc.org/biocyc-pgdb-list.shtml
