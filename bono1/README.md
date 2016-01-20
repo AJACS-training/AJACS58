@@ -55,7 +55,7 @@
 ### [統合TV](http://togotv.dbcls.jp/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/
-[![統合TVトップページ](https://i.gyazo.com/9b890666bc8176d672d1e4f560162d05.png)](https://gyazo.com/9b890666bc8176d672d1e4f560162d05)
+[![統合TVトップページ](http://i.gyazo.com/9b890666bc8176d672d1e4f560162d05.png)](https://gyazo.com/9b890666bc8176d672d1e4f560162d05)
 
     - YouTube版もあります http://www.youtube.com/user/togotv/videos
 [![統合TVYouTube支店](http://i.gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e.png)](http://gyazo.com/4c4ffa07ba8a0ea1846a2e76be02284e)
@@ -86,7 +86,7 @@
 
 
 2. 検索結果を見ましょう。それぞれのDBの横にある数字は、検索ヒット数です。ゲノム配列が得たいので、``Genome``の項目(ヒット数1件)をクリックして詳細を取得します  
-[![https://gyazo.com/59d401eee38017a64719e9ae631ff113](https://i.gyazo.com/59d401eee38017a64719e9ae631ff113.png)](https://gyazo.com/59d401eee38017a64719e9ae631ff113)
+[![https://gyazo.com/59d401eee38017a64719e9ae631ff113](http://i.gyazo.com/59d401eee38017a64719e9ae631ff113.png)](https://gyazo.com/59d401eee38017a64719e9ae631ff113)
 
 
 3. Middle East respiratory syndrome coronavirusのゲノム構造と各種リンクが表示されます。``RefSeq``のところにあるIDをクリックするとRefSeq(リファレンス配列(Reference Sequence)のデータベース)のレコードが表示されます  
@@ -180,52 +180,52 @@ http://motdb.dbcls.jp/?AJACS32%2Fbono#e17b6eed)を御覧ください。実際に
 1. http://genome.ucsc.edu/ にアクセスします  
 2. 上部のメニューバーの``Genomes``にマウスをのせると上述のヒトとマウスのアッセンブリが選択できますが、ここでは気にせずそのままクリックします。  
 3. groupに``Mammal``、genomeに``Human``、assemblyに``Feb.2009 (GRCh37/hg19)``を選び、search termに``HIF1``と入力すると入力補完されるので、一番上の``HIF1A``を選び、submitボタンを押しましょう  
-[![https://gyazo.com/6b98e53d802a833793e674ff37eb21bf](https://i.gyazo.com/6b98e53d802a833793e674ff37eb21bf.png)](https://gyazo.com/6b98e53d802a833793e674ff37eb21bf)
+[![https://gyazo.com/6b98e53d802a833793e674ff37eb21bf](http://i.gyazo.com/6b98e53d802a833793e674ff37eb21bf.png)](https://gyazo.com/6b98e53d802a833793e674ff37eb21bf)
 
 4. HIF1Aがコードされたゲノム上の領域が表示されます
-[![https://gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f](https://i.gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f.png)](https://gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f)
+[![https://gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f](http://i.gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f.png)](https://gyazo.com/bdbbb1a3cb3835e4db052b0c5843528f)
 これがゲノムブラウザの基本画面です。このページにあるさまざまなボタンなどいろいろと操作して必要な情報を追加したり、見たくない情報を削除したりします。
 
 5. 上部のnavigationボタンでmoveやzoom in/out等できますが、遺伝子名検索でたどり着いた場合、mRNAの領域に拡大されて表示されるので、zoom out ``3x``しておきましょう  
-[![https://gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72](https://i.gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72.png)](https://gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72)
+[![https://gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72](http://i.gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72.png)](https://gyazo.com/1d6b096e08ec68e38ee8fae6e53f0e72)
 
 6. 画面下の方にあるのがアノテーションです。Phenotype and Literature カテゴリー中の``COSMIC``が'hide'になっているのを``dense``に変えて、``refresh``ボタンを押してみましょう
-[![https://gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb](https://i.gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb.png)](https://gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb)
+[![https://gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb](http://i.gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb.png)](https://gyazo.com/a4130a4abc68b93803584ce5aa2ff8bb)
 
 7. そうすると、上部のゲノム領域にこのゲノムアノテーション(COSMIC)が付加されて表示されます(画像中央、赤色)
-[![https://gyazo.com/8ae374468cf7f99b684496068319ffd9](https://i.gyazo.com/8ae374468cf7f99b684496068319ffd9.png)](https://gyazo.com/8ae374468cf7f99b684496068319ffd9)
+[![https://gyazo.com/8ae374468cf7f99b684496068319ffd9](http://i.gyazo.com/8ae374468cf7f99b684496068319ffd9.png)](https://gyazo.com/8ae374468cf7f99b684496068319ffd9)
 
 8. dense,squich, pack, fullとなるに連れて、情報量が多くなります。``full``にしてみると…
-[![https://gyazo.com/4375db31f539aba1af1af1777546123f](https://i.gyazo.com/4375db31f539aba1af1af1777546123f.png)](https://gyazo.com/4375db31f539aba1af1af1777546123f)
+[![https://gyazo.com/4375db31f539aba1af1af1777546123f](http://i.gyazo.com/4375db31f539aba1af1af1777546123f.png)](https://gyazo.com/4375db31f539aba1af1af1777546123f)
 
 9. この図は見たい情報のところをクリックすると詳細情報が得られます。たとえば、COSMICの気になる部分のIDをクリックすると
-[![https://gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5](https://i.gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5.png)](https://gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5)
+[![https://gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5](http://i.gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5.png)](https://gyazo.com/2b52bd8f59a6b4256f1d069c3b69eff5)
 その個別のアノテーションの詳細情報が見れます。
 
 10. このゲノムアノテーションそのものについて詳しく知りたい場合、さきほどshowに切り替えた選択画面の上にあったリンクをクリックしてみましょう。詳しい説明が得られます  
-[![https://gyazo.com/7c21fba54853479d3d648d878f2fd11c](https://i.gyazo.com/7c21fba54853479d3d648d878f2fd11c.png)](https://gyazo.com/7c21fba54853479d3d648d878f2fd11c)
+[![https://gyazo.com/7c21fba54853479d3d648d878f2fd11c](http://i.gyazo.com/7c21fba54853479d3d648d878f2fd11c.png)](https://gyazo.com/7c21fba54853479d3d648d878f2fd11c)
 このようにして必要な情報を足していって、自分のほしい情報を得ます。
 
 11. いろいろいじってしまうと元に戻したい時があります。その場合は、``default tracks``ボタンを押すとResetされ、元のゲノムアノテーションに簡単に戻せます  
-[![https://gyazo.com/e37518349806c036f070a079b6dfa9cb](https://i.gyazo.com/e37518349806c036f070a079b6dfa9cb.png)](https://gyazo.com/e37518349806c036f070a079b6dfa9cb)
+[![https://gyazo.com/e37518349806c036f070a079b6dfa9cb](http://i.gyazo.com/e37518349806c036f070a079b6dfa9cb.png)](https://gyazo.com/e37518349806c036f070a079b6dfa9cb)
 
 12. このページにあるゲノムアノテーションの検索は、その左の``track search``ボタンから可能です。*cancer*をキーワードに検索してみると…
-[![https://gyazo.com/24ef8682285d7879a8025c078f75bede](https://i.gyazo.com/24ef8682285d7879a8025c078f75bede.png)](https://gyazo.com/24ef8682285d7879a8025c078f75bede)
+[![https://gyazo.com/24ef8682285d7879a8025c078f75bede](http://i.gyazo.com/24ef8682285d7879a8025c078f75bede.png)](https://gyazo.com/24ef8682285d7879a8025c078f75bede)
 
 13. さらに、UCSC Genome Browserのサーバー上ではなく、外部で管理されているデータをゲノムブラウザ上に表示することもできます。上部のメニューの My Data の中にあるTrack Hubsをクリックした画面で``cancer``で検索すると以下の様な外部データが利用可能とわかります。
-[![https://gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c](https://i.gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c.png)](https://gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c)
+[![https://gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c](http://i.gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c.png)](https://gyazo.com/0b434ffd362d5f9a846c1de2632a2c4c)
 
 14. また、上部のメニューのうち、Viewをクリックして出てくる``Ensembl``をクリックすると、今見ている領域のEnsembl Genome Browserの該当領域へジャンプします  
-[![https://gyazo.com/07a9546a5bbf54abc0488348c71cafa9](https://i.gyazo.com/07a9546a5bbf54abc0488348c71cafa9.png)](https://gyazo.com/07a9546a5bbf54abc0488348c71cafa9)
+[![https://gyazo.com/07a9546a5bbf54abc0488348c71cafa9](http://i.gyazo.com/07a9546a5bbf54abc0488348c71cafa9.png)](https://gyazo.com/07a9546a5bbf54abc0488348c71cafa9)
 が、HIF1A遺伝子が見当たりません。なぜでしょうか?
 
 15. これはEnsemblに飛んだ先がGRCh38のゲノムアッセンブリで、**UCSC側とバージョンが違っていて座標がずれている**からです。しょうがないので、真ん中のGene:のところで``HIF1A``を検索しましょう。
-[![https://gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb](https://i.gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb.png)](https://gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb)
-[![https://gyazo.com/f09fea3c99669a41bc3f334ba1022ceb](https://i.gyazo.com/f09fea3c99669a41bc3f334ba1022ceb.png)](https://gyazo.com/f09fea3c99669a41bc3f334ba1022ceb)
+[![https://gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb](http://i.gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb.png)](https://gyazo.com/5663fa4c073b5e119ac01a547c0ce1bb)
+[![https://gyazo.com/f09fea3c99669a41bc3f334ba1022ceb](http://i.gyazo.com/f09fea3c99669a41bc3f334ba1022ceb.png)](https://gyazo.com/f09fea3c99669a41bc3f334ba1022ceb)
 【重要】ゲノム配列はバージョンが同じならどこのサイトでも同一ですが、 **アノテーションは提供サイトで異なります**  
 
 16. 左カラムのメニュー中のComparative Genomicsの``Synteny``をクリックすると、ヒトとマウスの間のシンテニーマップが表示されます  
-[![https://gyazo.com/7266536d5e87a533918d7e95449e4fee](https://i.gyazo.com/7266536d5e87a533918d7e95449e4fee.png)](https://gyazo.com/7266536d5e87a533918d7e95449e4fee)
+[![https://gyazo.com/7266536d5e87a533918d7e95449e4fee](http://i.gyazo.com/7266536d5e87a533918d7e95449e4fee.png)](https://gyazo.com/7266536d5e87a533918d7e95449e4fee)
 
 - [【復習用】UCSC Genome Browserの使い方〜表示+ENCODE編〜 2012(統合TV)](http://togotv.dbcls.jp/ja/20120528.html)
 
