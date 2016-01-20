@@ -11,17 +11,18 @@
 イメージ (KEGG)
 ![pathway](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
 
-可視化することで生命現象を理解しやすくする  
-データベース化することで網羅的に扱えるようになる
-- ゲノムアノテーションや種間比較、遺伝子発現のエンリッチメント解析、モデル化、シミュレーションなどに利用できるようになる  
-
-歴史的には代謝経路の表現から始まった  
-現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
+- 可視化することで生命現象を理解しやすくなる  
+- データベース化することで網羅的に扱えるようになる
+  - ゲノムアノテーションや種間比較、遺伝子発現のエンリッチメント解析、モデル化、シミュレーションなどに利用できるようになる  
 
 ---
 ## いろいろなパスウェイデータベース
 pathguid: http://www.pathguide.org/
 - パスウェイリソースのリスト約 550　(2013)
+
+歴史的には代謝経路の表現から始まった  
+現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
+
   - タンパク質間相互作用
   - 代謝パスウェイ
   - シグナリングパスウェイ
@@ -33,9 +34,13 @@ pathguid: http://www.pathguide.org/
   - その他
 
 Availability: 有料か無料か  
-Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどうか
-- BioPAX は静的なマップ表現
-- SBML は kinetics も取り扱えるため、シミュレーションなどで利用可能
+Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠しているかどうか
+- BioPAX (Biological Pathways Exchange) は静的なマップ表現
+  - Level 1：代謝パスウェイ
+  - Level 2：タンパク質間相互作用
+  - Level 3：シグナル伝達
+- SBML (Systems Biology Markup Language) は kinetics も取り扱えるため、シミュレーションなどで利用可能
+- PSI-MI (Proteomics Standards Initiative Molecular Interaction XML Format) はタンパク質間相互作用のみ
 
 どのパスウェイデータベースを解析に使えば良いかは、対象生物や対象パスウェイ、目的によって異なる  
 ここでは BioCyc, Reactome, KEGG PATHWAY を紹介する
@@ -109,17 +114,29 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 ![reactome1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome1.png)
 
 #### 好きな生物のパスウェイを見てみよう  
-- Browse Pathways ボタンをクリック
-- 左にパスウェイのリスト、右にパスウェイマップが表示。連動して動作
+- [Browse Pathways](http://www.reactome.org/PathwayBrowser/) ボタンをクリック
+- 初期画面はヒトのパスウェイなので、好きな種を選択
+![reactome2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome2.png)
+- 左のパスウェイのリスト、右のパスウェイマップが連動
+  - 下層になると、ダイヤグラムが表示される
+  - Reactome には代謝パスウェイの他に制御系も含むため、ノードとエッジの関係が複数ある
+![reactome5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome5.png)
 
 #### パスウェイをハイライトさせてみよう  
-- マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis"や"tca"などの単語を入力すると、候補がリストアップされるので選択
+- マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis" や "tca" などの単語を入力すると、候補がリストアップされるので選択
+![reactome3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome3.png)
 
-#### サンプル・データをマッピングしてみよう  
-- 右上の Analysis: アイコンをクリック
-- http://www.reactome.org/PathwayBrowser/#TOOL=AT
+#### サンプル・データをマッピングしてみよう
+- サンプルがヒトしか無いので、ヒトのパスウェイに移動
+- 上、右側の Analysis: アイコンをクリック
 - ファイルアップロード部のすぐ下の click here to paste your data... をクリック
+![reactome4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome4.png)
 - 右のサンプルをクリックして GO ボタンをクリック
+  - ID リストの場合は Over-representation 解析 (ORA）, Enrichment 解析
+  - ID と数値のリストの場合は発現解析
+    - 再生ボタンで、複数のカラムのデータを連続表示
+
+詳細は [Usersguide](http://wiki.reactome.org/index.php/Usersguide) を参照  
 
 ----
 ## Unipathway
