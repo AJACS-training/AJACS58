@@ -48,29 +48,31 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc1.png)
 
-対象生物種(Tier1, 2, 3)を見てみよう  
+#### 対象生物種を見てみよう  
 - http://biocyc.org/biocyc-pgdb-list.shtml
   - 種毎の Database
+    - Tier 1：専門家が手作業で作成した文献ベースのデータ
+    - Tier 2：自動ツールで作成したデータを手作業で修正
+    - Tier 3：自動ツールで作成
   - MetaCyc だけは 2,000 種以上から構築
-  - Tier 1：専門家が手作業で作成した文献ベースのデータ
-  - Tier 2：自動ツールで作成したデータを手作業で修正
-  - Tier 3：自動ツールで作成
+  
+#### 好きな生物のパスウェイを見てみよう  
+- 好きな生物種をクリック（例： [EcCyc](http://biocyc.org/ecocyc/index.shtml)）
+- 上のメニューの Metabolism から [Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml) を選択
+![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
 
-好きな生物のパスウェイを見てみよう  
-- http://biocyc.org/ecocyc/index.shtml
-
-上のメニューの Metabolism から Cellular Overview を選択  
-- http://biocyc.org/overviewsWeb/celOv.shtml
-
-パスウェイ、反応、遺伝子などをハイライトさせてみよう
+#### パスウェイ、反応、遺伝子などをハイライトさせてみよう  
 - 右のメニューの Highlight ＞ Highlight Pathway(s) ＞ By Name or Frame ID を選択
 - 出てきたテキストボックスに "glycolysis"や"tca"などの単語を入力すると、候補がリストアップされるので選択し、Highlightボタンをクリック
+![biocyc3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
 
-サンプル・データをマッピングしてみよう
+### サンプル・データをマッピングしてみよう  
 - 右のメニューの Overlay Experimental Data ＞ Upload Data from File
 - 出てきた入力フォームのファイルアップロード部のすぐ下の (or "paste data" directly into form) のリンクをクリック
-- テキストエリアに切り替わるので、テキストエリア右上のサンプルをクリック
-- データのカラムを入力して
+![biocyc4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc4.png)
+- テキストエリアに切り替わるので、テキストエリア右上のサンプル（Gene example）をクリック
+- データのカラム（1）を入力して Submit ボタンをクリック
+![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
 
 ----
 ## Reactome
@@ -86,14 +88,14 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![reactome1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome1.png)
 
-好きな生物のパスウェイを見てみよう
+#### 好きな生物のパスウェイを見てみよう  
 - Browse Pathways ボタンをクリック
 - 左にパスウェイのリスト、右にパスウェイマップが表示。連動して動作
 
-パスウェイをハイライトさせてみよう
+#### パスウェイをハイライトさせてみよう  
 - マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis"や"tca"などの単語を入力すると、候補がリストアップされるので選択
 
-サンプル・データをマッピングしてみよう
+#### サンプル・データをマッピングしてみよう  
 - 右上の Analysis: アイコンをクリック
 - http://www.reactome.org/PathwayBrowser/#TOOL=AT
 - ファイルアップロード部のすぐ下の click here to paste your data... をクリック
@@ -133,10 +135,10 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - 左にモジュールのリスト（KEGG におけるパスウェイの小さい機能単位）、右にマップが表示
 - 機能単位毎にパスウェイを強調表示できる
 
-生物種毎のグローバルマップを見てみよう  
+#### 生物種毎のグローバルマップを見てみよう  
 - プルダウンメニューから生物を選択し、Go をクリック
 
-個別のパスウェイマップを見てみよう  
+#### 個別のパスウェイマップを見てみよう  
 - http://www.kegg.jp/kegg/pathway.html
 - 1.1 以下の好きなパスウェイをクリック
   - 右上の Help でそれぞれの図形の意味を見てみよう
@@ -144,26 +146,26 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 好きな生物のパスウェイを見てみよう  
 - 緑色の箱で、その生物の持つパスウェイを表現
 
-リファレンスパスウェイと種毎のパスウェイの関係
+#### リファレンスパスウェイと種毎のパスウェイの関係  
 
 ![kegg2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg2.png)
 
 ![kegg3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg3.png)
 
-対象生物種を見てみよう  
+#### 対象生物種を見てみよう  
 - http://www.kegg.jp/kegg/catalog/org_list.html
   - KEGG では 3-4 文字の独自の生物種コードを使用している
   - データが手作業で修正されているか自動ツールで作成されているかはテーブルには情報が無い
   - 生物種コードのリンクをクリックすると、種の情報のページに飛ぶ
   - "Annotation" が manual -> 手作業（hsa等）、KOALA -> 自動ツール（pps等）
 
-サンプル・データをマッピングしてみよう  
+#### サンプル・データをマッピングしてみよう  
 - http://www.genome.jp/kegg/tool/map_pathway2.html
 - KEGG Mapper
 
-KEGG データベースにはない新規遺伝子をマッピングしてみよう  
+#### KEGG データベースにはない新規遺伝子をマッピングしてみよう  
 - BlastKOALA, ghostKOALA, KAAS
 
-KGML ファイルをダウンロードしてみよう  
+#### KGML ファイルをダウンロードしてみよう  
 
 --
