@@ -48,6 +48,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 
 ![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc1.png)
 
+
 #### 対象生物種を見てみよう  
 - http://biocyc.org/biocyc-pgdb-list.shtml
   - 種毎の Database
@@ -55,16 +56,19 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
     - Tier 2：自動ツールで作成したデータを手作業で修正
     - Tier 3：自動ツールで作成
   - MetaCyc だけは 2,000 種以上から構築
-  
+
+
 #### 好きな生物のパスウェイを見てみよう  
 - 好きな生物種をクリック（例： [EcCyc](http://biocyc.org/ecocyc/index.shtml)）
 - 上のメニューの Metabolism から [Cellular Overview](http://ecocyc.org/overviewsWeb/celOv.shtml) を選択
 ![biocyc2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc2.png)
 
+
 #### パスウェイ、反応、遺伝子などをハイライトさせてみよう  
 - 右のメニューの Highlight ＞ Highlight Pathway(s) ＞ By Name or Frame ID を選択
 - 出てきたテキストボックスに "glycolysis"や"tca"などの単語を入力すると、候補がリストアップされるので選択し、Highlightボタンをクリック
 ![biocyc3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
+
 
 ### サンプル・データをマッピングしてみよう  
 - 右のメニューの Overlay Experimental Data ＞ Upload Data from File
@@ -73,6 +77,7 @@ Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどう�
 - テキストエリアに切り替わるので、テキストエリア右上のサンプル（Gene example）をクリック
 - データのカラム（1）を入力して Submit ボタンをクリック
 ![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
+
 
 ----
 ## Reactome
