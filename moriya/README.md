@@ -98,6 +98,7 @@ Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠している�
 - データのカラム（1〜3）を入力して Submit ボタンをクリック
 - ![biocyc5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
 
+詳細は [BioCyc User's guide](http://biocyc.org/PToolsWebsiteHowto.shtml) を参照
 
 ----
 ## Reactome
@@ -137,7 +138,7 @@ Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠している�
     - 再生ボタンで、複数のカラムのデータを連続表示
 - ![reactome6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome6.png)
 
-詳細は [Usersguide](http://wiki.reactome.org/index.php/Usersguide) を参照  
+詳細は [Reactome User's Guide](http://wiki.reactome.org/index.php/Usersguide) を参照  
 
 ----
 ## Unipathway
@@ -166,6 +167,15 @@ Standards: 標準データ形式(BioPAX, SBML, PSI-MI等)に準拠している�
 
 ![kegg1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
 
+#### KEGG はデータベースの集合
+- [KEGG2](http://www.kegg.jp/kegg/kegg2.html) をクリック
+- KEGG PATHWAY を含むシステム情報データベースの他に、遺伝情報、化学情報、健康情報などのデータベース
+- ここでは PATHWAY 以外の詳細は省くので、詳細は過去の AJACS 資料を参照
+  - [AJACS50](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=140912AJACS50_kawano.pdf&refer=AJACS50)
+  - [AJACS51](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2014_12_slide.pdf&refer=AJACS51)、[付録資料](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2013_11.pdf&refer=AJACS51)
+  - [AJACS53](https://github.com/AJACS-training/AJACS53/tree/master/skwsm)
+  - [AJACS54](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=AJACS2015_muto_handout_.pdf&refer=AJACS54)
+  
 #### グローバルマップを見てみよう  
 - http://www.kegg.jp/kegg/pathway.html
 - 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
