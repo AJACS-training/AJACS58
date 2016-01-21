@@ -66,10 +66,10 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-[![統合TVトップページ](http://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)]
+![統合TVトップページ](http://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/
-[![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)](https://gyazo.com/1dce80b0a05a7de372415fa0b42a079c)
+![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
     - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
         - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
         - [![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](http://i.gyazo.com/35ed4ae06281d5c36b332c264285fbc7.png)](https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7)
