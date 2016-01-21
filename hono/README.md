@@ -262,9 +262,9 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 9. タイトル行をクリックするとソートできます。  
 10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
-    - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
+ - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
  - MF = Molecular Function  
-    - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
+ - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
 11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
 
 12. DAVIDで得られた結果を踏まえ、「ある実験」とはどのような実験であったか考察してみましょう。
@@ -298,5 +298,6 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 
 ## まとめ
 - つまみ食い的ではありますが通り一遍の大規模発現データに対する生物学的解釈の方法を学びました。
+- 「道具」を知って使い方が分かれば、あとは情報分析力と想像力の勝負。
 - ぜひご自身のデータ、あるいはご自身のテーマに関連する公共データの生物学的解釈をしてみましょう。
 - 実戦≒実践あるのみ
