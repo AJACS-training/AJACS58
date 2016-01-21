@@ -215,7 +215,7 @@ XML で記述されていることが多い
 - プルダウンメニューから好きな生物を選択して Go をクリック
   - 多すぎて選びにくい場合
   - &lt; Sort below by alphabet &gt; を選択して Go をクリックでリストをソート
-  - &lt；Set personalized menu &gt; を選択して Go をクリックでポップアップウィンドウからリストの絞り込み
+  - &lt; Set personalized menu &gt; を選択して Go をクリックでポップアップウィンドウからリストの絞り込み
   - ![kegg6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg6.png)
     - ドラフトゲノム、メタゲノムはここからは選べないので、生物種リストのページから、種のページ、パスウェイリストへ移動
     - ![kegg7](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg7.png)
@@ -243,7 +243,7 @@ XML で記述されていることが多い
 #### ヒトの疾患パスウェイを見てみよう
 - http://www.genome.jp/kegg/pathway.html#disease
 - がん、免疫系疾患、神経変性疾患など多因子性の疾患
-- 好きな疾患パスウェイをクリック(e.g. [大腸がん](http://www.genome.jp/kegg-bin/show_pathway?hsa05210)
+- 好きな疾患パスウェイをクリック（例：[大腸がん](http://www.genome.jp/kegg-bin/show_pathway?hsa05210)）
   - 赤字の遺伝子が疾患の病因遺伝子
 - プルダウンメニューから [Homo sapiens (human) + Disease/drug](http://www.genome.jp/kegg-bin/show_pathway?org_name=hsadd&mapno=05210&mapscale=&show_description=hide) を選択
   - ピンクのボックスは何らかの疾患で病因遺伝子となっている遺伝子
@@ -254,7 +254,7 @@ XML で記述されていることが多い
 - KEGG for pangenomes or genome comparison/combination のテキストボックスに "eco ecs" と入力して Go をクリック
   - eco：非病原性大腸菌 k-12
   - ecs：病原性大腸菌 O157
-- ![kegg11](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
+- ![kegg12](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg12.png)
 - 上のメニューの [Pathway map](http://www.genome.jp/kegg-bin/show_organism?menu_type=pathway_maps&orgs=eco%20ecs) をクリック
 - 好きなパスウェイをクリック
   - 前者が持っている遺伝子が緑、後者が持っている遺伝子がピンクで表示
