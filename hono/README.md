@@ -55,7 +55,7 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
     - 使ったことがある **9名 (23%)**
     - 使っている **6名 (15%)**
 
-- 自分で実験して得た、数十〜数千の遺伝子からなる「遺伝子リスト」(例: 発現差のあった遺伝子など) を持っていますか。
+- 自分で実験して得た、数十〜数千の遺伝子からなる「遺伝子リスト」(例: 発現差のあった遺伝子など) を持っていますか?
     - これから実験をする・したい **8名 (20%)**
     - 公共データを活用する・したい **11名 (28%)**
     - 既に持っている **18名 (45%)**
@@ -68,38 +68,45 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-![統合TVトップページ](http://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)
+    - ![統合TVトップページ](http://i.gyazo.com/5f6f41bb220c425a3c7e6d7faac5c840.png)
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/
-![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
-    - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
-        - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
-        - ![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](http://i.gyazo.com/35ed4ae06281d5c36b332c264285fbc7.png)
-        - 講義・講習などの参考資料や後輩指導の教材として利用できます。
-        - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
+    - ![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
+    - YouTubeのチャンネル登録をすると更新情報がメールで届きます。
+
+- ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
+    - 1000本を超える動画が公開されており、YouTube版だけで のべ 560,000回以上 再生されています。(2015年12月末現在)
+    - ![https://gyazo.com/35ed4ae06281d5c36b332c264285fbc7](http://i.gyazo.com/35ed4ae06281d5c36b332c264285fbc7.png)
+
+- 講義・講習などの参考資料や後輩指導の教材として利用できます。
+    - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
 
     - 今回の講習に関連するデータベースやウェブツールは、[統合TV の「発現解析」タグ](http://togotv.dbcls.jp/ja/tags.html?tag=発現解析)から検索できます。  
 
-    - 統合TVに掲載されているコンテンツについてご引用いただく際に、恒久的な URL として [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子)(Digital Object Identifier) を使用することができます。
+- 統合TVに掲載されているコンテンツについてご引用いただく際に、恒久的な URL として [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) を使用することができます。
 
-    - 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材としてご活用いただけます。
+- 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材としてご活用いただけます。
 
-    - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
+- お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
 
-    - 統合TVを作ってみたい方、募集中です。(オンラインでの作成環境を整備しており、遠隔地でもOKです)
+- 統合TVを作ってみたい方、募集中です。(オンラインでの作成環境を整備しており、遠隔地でもOKです)
 
 ----
 
 #### 習熟度ややりたいこと別にご参考ください
 - 本講習内容をスムーズに理解するために押さえておくとよい基礎知識
     - [「塩基配列解析のためのデータベース・ウェブツール」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015033.html)
+
 - 遺伝子発現データを公共DBで検索・取得・解析する方法について
     - [「遺伝子発現DB・ウェブツールの使い方 応用・実践編」(2015年5月AJACS御茶ノ水)](http://togotv.dbcls.jp/ja/ajacs2015007.html)
+
 - 非モデル生物のデータをモデル生物のデータに見立てるためのID対応表づくりについて
     - [「コマンドラインで遺伝子配列を解析する」（2012年7月）](http://motdb.dbcls.jp/?AJACS32%2Fbono)
+
 - 次世代シーケンス(NGS)データの解析について
     - [「次世代シーケンサー（NGS）と関連するデータベース・ツール」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015031.html)
     - [「次世代シーケンサー(NGS)データから遺伝子発現を見るためのホップ&ステップ」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015030.html)
+
 - NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約50時間程度)
     - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
     - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
@@ -130,7 +137,7 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 
 1. http://refex.dbcls.jp/ を開きます。
 2. 画面中央の「組織特異的に発現する遺伝子を見る」の臓器アイコンにカーソルを合わせると、更に詳細な部位のアイコンが出るので、調べたい臓器（例として肝臓）をクリックします。  
-![http://gyazo.com/35c8f38340753e8f433cb8c4d8fd812b](http://i.gyazo.com/35c8f38340753e8f433cb8c4d8fd812b.jpg)
+  - ![http://gyazo.com/35c8f38340753e8f433cb8c4d8fd812b](http://i.gyazo.com/35c8f38340753e8f433cb8c4d8fd812b.jpg)
 
 3. 検索結果一覧が表示されます。検索結果一覧では、「ソート項目の切り替え」や「絞り込み検索」、「リストへの追加」ができます。(手順11以降で解説します。)
 4. 各遺伝子の青字の部分（例 [fibrinogen alpha chain](http://refex.dbcls.jp/gene_info.php?lang=ja&db=human&geneID=2243&refseq=NM_000508&unigene=Hs.351593&probe=205649_s_at))をクリックすると詳細情報を閲覧できます。
@@ -139,18 +146,17 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 7. 「Download」をクリックすると、表示中の遺伝子の組織40分類別の発現データがタブ区切り形式でダウンロードできます。
 8. 「Probe set ID」のリンク先をクリックすると、どういう情報が参照できるでしょうか。
 9. 遺伝子オントロジー([Gene Ontology](http://array.cell-innovator.com/?p=1085):GO ID)をクリックすると、そのGO termを持つ他の遺伝子を一括で検索できます。
- - 例として、[GO:0007596](http://refex.dbcls.jp/genelist.php?lang=ja&db=human&idkind=1&ids=GO:0007596)   blood coagulation をクリックしてみましょう。
-
-![遺伝子詳細情報](http://i.gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15.jpg)
+  - 例として、[GO:0007596](http://refex.dbcls.jp/genelist.php?lang=ja&db=human&idkind=1&ids=GO:0007596)   blood coagulation をクリックしてみましょう。
+  - ![遺伝子詳細情報](http://i.gyazo.com/3cca3d33c17e845ad5dae8749d7fbd15.jpg)
 
 10. 右側のFANTOM5 CAGEのタブをクリックすると、FANTOM5 CAGEデータのビューアに切り替わります。
  - ビューアは上部が拡大図で、下部が全体表示になっています。
  - 検索窓にキーワードを入れるとサンプル名を検索できます。ヒットしたサンプルはオレンジ色で強調されます。
  - 右側に、サンプル名と発現値、サンプル分類が表示されます。
  - [RefEx用に整理したサンプル情報一覧](http://bit.ly/fantom5cagehuman)も閲覧可能です。
-![FANTOM5 CAGE Viewer](http://i.gyazo.com/51d0b3db07efe64a6fdafb054cd4217f.jpg)
+ - ![FANTOM5 CAGE Viewer](http://i.gyazo.com/51d0b3db07efe64a6fdafb054cd4217f.jpg)
 11. 検索結果一覧に戻ります。ソート項目を切り替えて、どのように結果が変わるでしょうか。
-![検索結果一覧](http://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)
+ - ![検索結果一覧](http://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)
 12. 様々な条件で検索結果を絞り込むことができます。絞り込み検索は左のバーから行えます。
  - 遺伝子名に「liver」を含むデータは何件あるでしょうか。
  - 「遺伝子名」の下の「条件なし」をクリックして表示されるウインドウに「liver」と入力し、「Include」をクリックし、「この条件で絞り込み」を押します。
@@ -162,9 +168,9 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
  - 追加した件数は「リストを見る」の横に表示されます。
  - 「リストを見る」をクリックするとリストに移動します。
  - 『並べて表示する』にチェックを入れて、「遺伝子を並べて表示」をクリックします。
- - 並列に比較することで見えてくる「違い」はなんでしょうか。
-![並列比較1](http://i.gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8.jpg)
-![並列比較2](http://i.gyazo.com/3f2f9e5cbf135a2c298ae164d6360302.jpg)
+ - 遺伝子発現データやGeneOntology情報を並列に比較することで見えてくる「違い」はなんでしょうか。その違いからどういうことが推測できるでしょうか。
+ - ![並列比較1](http://i.gyazo.com/ba11e4c7c38a4e78d3a64d7b8b6efee8.jpg)
+ - ![並列比較2](http://i.gyazo.com/3f2f9e5cbf135a2c298ae164d6360302.jpg)
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 ----
@@ -215,7 +221,7 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 - マイクロアレイデータの生物学的な解釈
 - マイクロアレイ実験の一般的な目的は、実験条件によって得られた数十～数千の遺伝子群の発現が生物学的にどういう意味を持つかを考えることです。
 
-![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
+- ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
 
 - 今回は、その方法の一つとして、マイクロアレイの結果に[Gene Ontology](http://array.cell-innovator.com/?p=1085) の用語を付与することで、生物学的な解釈を行います。
 
@@ -232,33 +238,33 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 
 1. [DAVID](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
-![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)
+- ![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)
 
 2. 画面左側バーで、probe IDリストをコピペ or ファイルを指定します。
 3. リストのIDの種類タイプを選択します。 … 今回は、「AFFY_ID」と「Gene List」
 4. Submit List をクリックするとリストが読み込まれます。
 
-![Gyazo](http://i.gyazo.com/e8275cf9dbb203b3d8577307b462c783.png)
+- ![Gyazo](http://i.gyazo.com/e8275cf9dbb203b3d8577307b462c783.png)
 
 5. アップロードしたリストは、左側バーの「List Manager」で「Uploaded List_1」として保存されています。削除やrenameもできます。
 
-![Gyazo](http://i.gyazo.com/e8270d82a68decba0249daa49914fba9.png)
+- ![Gyazo](http://i.gyazo.com/e8270d82a68decba0249daa49914fba9.png)
 
 6. 解析を続けます。真ん中の「Functional Annotation Tool」をクリックします。
 7. 「Gene Ontology」をクリックすると、Gene Ontologyを用いた解析の細かいメニューが表示されます。
 
-![Gyazo](http://i.gyazo.com/38905ceb16d6b702059667e4fb404531.png)
+- ![Gyazo](http://i.gyazo.com/38905ceb16d6b702059667e4fb404531.png)
 
 8. 今回は、GOTERM_BP_FAT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
 
-![Gyazo](http://i.gyazo.com/78301700c3d952957dd599bbb83c785f.png)
+ - ![Gyazo](http://i.gyazo.com/78301700c3d952957dd599bbb83c785f.png)
 
 9. タイトル行をクリックするとソートできます。  
 10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
-![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
+    - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
  - MF = Molecular Function  
-![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
+    - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
 11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
 
 12. DAVIDで得られた結果を踏まえ、「ある実験」とはどのような実験であったか考察してみましょう。
