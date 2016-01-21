@@ -246,9 +246,9 @@ XML で記述されていることが多い
     - 色は16進数表記か基本的なカラーネームで記述
 - ヒットしたパスウェイのリストが表示、カッコの中はヒットした要素の数
 
-#### チンパンジーのサンプル (NCBI-GeneID) をマッピングしてみよう
-
-> 453039 red  　
+チンパンジーの遺伝子 (NCBI-GeneID) をマッピングしてみよう  
+例  
+> 453039 red  
 > 104003784 coral
 > 453645 gray,red  
 > 453565 blue,yellow  
@@ -267,9 +267,8 @@ XML で記述されていることが多い
 
 自由に色を塗れる反面、色の定義付けなどは自分で行う必要がある
 
-#### 数値データをマッピングしてみよう
-- [KEGG Mapper](http://www.kegg.jp/kegg/mapper.html)
-- Pathway mapping tool の３番目の [Color Pathway](http://www.kegg.jp/kegg/tool/map_pathway3.html) をクリック
+数値データをマッピングしてみよう  
+- [Color Pathway](http://www.kegg.jp/kegg/tool/map_pathway3.html) をクリック
 - 右のサンプル CML-COSMIC をダウンロード
   - 中身は配列 ID と数値の対応リスト
 - Select KEGG pathway map: でパスウェイを指定（hsa05200)
@@ -278,9 +277,51 @@ XML で記述されていることが多い
 - Exec ボタンをクリック
 - ![kegg9](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg9.png)
 
-#### KEGG データベースにはない新規生物種ゲノムをマッピングしてみよう  
-- BlastKOALA, ghostKOALA, KAAS
+数値がグラデーションになってマッピングされる
 
-#### KGML ファイルをダウンロードしてみよう  
+[Color Pathway WebGL](http://www.kegg.jp/kegg/tool/map_pathway3a.html) も使ってみよう  
+- Example: を使って、どんな絵になるか試してみましょう
 
---
+#### KEGG データベースにはない遺伝子をマッピングしてみよう
+- [Annotate Sequence by BlastKOALA](http://www.kegg.jp/kegg/tool/annotate_sequence.html)
+- Exapmle: の sequence.txt をコピー＆ペースト、もすくはダウンロードしてファイルを選択
+  - Buchnera の仲間
+- Family/Genus ボタンをクリック
+  - サンプルが Buchnera の仲間なので、KEGG の Buchnera データを使う
+  - 新たに開いたウィンドウで、Buchnera を探し、Taxonomy番号をクリック
+- ![kegg10](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg10.png)
+- Exec ボタンをクリック
+  - 数分待つ
+  - Reconstruct Pathway から遺伝子がマッピングされたパスウェイを見ることができる
+- ![kegg11](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
+
+自動アノテーション、マッピングツール
+- KEGG に登録されている配列データと類似性を計算し、遺伝子機能を推定、パスウェイへのマッピングを行う
+- [KAAS](http://www.genome.jp/tools/kaas/)
+  - 配列類似性の計算は [BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi), [GhostX](http://www.bi.cs.titech.ac.jp/ghostx/), [GhostZ](http://www.bi.cs.titech.ac.jp/ghostz/) ベースの３つ
+    - GhostX は BLAST より精度は劣るが 100 倍早い					 
+    - GhostZ は GhostX より精度は劣るが２倍早い
+  - 種間で両方向ベストヒットを利用して遺伝子機能を推定
+- KOALA（非公開）
+  - KEGG 内部で使用している自動アノテーションツール
+  - 配列類似性の計算は SSEARCH (Smith-Waterman score) ベース
+    - SSEARCH プログラムは [FASTA](http://fasta.bioch.virginia.edu/fasta_www2/fasta_down.shtml) パッケージに入ってます
+- [BlastKOALA](http://www.kegg.jp/blastkoala/)
+  - 配列類似性の計算は [BLAST](http://blast.ncbi.nlm.nih.gov/Blast.cgi) ベース
+  - SSEARCH より精度は劣るが早い
+  - データベースを縮小している
+- [GhostKOALA](http://www.kegg.jp/ghostkoala/)
+  - 配列類似性の計算は [GhostX](http://www.bi.cs.titech.ac.jp/ghostx/) ベース
+  - BLAST より精度は劣るが 100 倍早い
+  - さらにデータベースを縮小している
+    
+#### KEGG REST API を使ってみよう  
+- http://www.kegg.jp/kegg/rest/keggapi.html
+- ヒトの遺伝子一覧
+  -http://rest.kegg.jp/list/hsa
+- ヒトのパスウェイ一覧
+  - http://rest.kegg.jp/list/pathway/hsa
+- ヒトの遺伝子一覧とパスウェイの対応
+  - http://rest.kegg.jp/link/hsa/pathway
+
+----
