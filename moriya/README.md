@@ -115,11 +115,9 @@ XML で記述されていることが多い
 - 開発：EMBLE-EBI 他
 - 対象：ヒトを中心に脊椎動物、酵母、植物、19 種
   - 専門家が手作業で作成した文献ベースのデータ
-  - 代謝パスウェイ以外も
+  - 代謝パスウェイ、シグナル伝達系、他
 - 利用：フリー
 - データ形式：BioPAX, SBML
-- 外部のReactome
-  - Plant reactome: http://plantreactome.oicr.on.ca/
 
 ![reactome1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome1.png)
 
@@ -149,17 +147,9 @@ XML で記述されていることが多い
 
 詳細は [Reactome User's Guide](http://wiki.reactome.org/index.php/Usersguide) を参照  
 
-----
-## Unipathway
-- ウェブサイト： http://www.unipathway.org/
-- 開発：SIB (the Swiss Institute of Bioinformatics) - Swiss-Prot group 他
-- 対象：タンパク質の知識データベース UniProt に登録されている種
-  - Uniprot の情報を KEGG PATHWAY, MetaCyc にマッピング
-  - 代謝パスウェイのみ
-- 利用：フリー
-
-![unipathway1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-unipathway1.png)
-
+他のReactome
+- http://www.reactome.org/pages/about/other-reactomes/
+  
 ----
 ## KEGG PATHWAY
 - ウェブサイト：http://www.kegg.jp/
@@ -169,10 +159,11 @@ XML で記述されていることが多い
     - リファレンスパスウェイ：専門家が手作業で文献ベースから作成（BioCyc の Tier 1(MetaCyc)に相当）
     - 種毎のパスウェイ（手動）：自動ツールで作成し、手作業でキュレーション（BioCyc の Tier 2 に相当）
     - 種毎のパスウェイ（自動）：自動ツールで作成（Buicyc の Tier 3 に相当）
-  - 代謝パスウェイ以外も
+  - 代謝パスウェイ、シグナル伝達系、他
 - 利用：アカデミックフリー
 - データ形式：KGML
-  - [KEGGscape] (http://apps.cytoscape.org/apps/keggscape) で Cytoscape に読み込み可能
+  - [KCPAVS KEGG-XML converter](http://www.kcpavs.cidms.org/kcpavs-features/tools-and-utilities/kegg-xml-converter) などで代謝パスウェイ、シグナル伝達などの多くのパスウェイを標準形式 に変換可能
+  - [KEGGscape] (http://apps.cytoscape.org/apps/keggscape) でネットワーク可視化ソフト Cytoscape に読み込み可能
 
 ![kegg1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
 
@@ -233,11 +224,59 @@ XML で記述されていることが多い
 
 #### 生物種毎の Overview マップを見てみよう  
 - プルダウンメニューから生物を選択し、Go をクリック
+- 生物の持っていない経路は灰色になる
 
+#### ヒトの疾患パスウェイを見てみよう
+- http://www.genome.jp/kegg/pathway.html#disease
+- がん、免疫系疾患、神経変性疾患など多因子性の疾患
+- 好きな疾患パスウェイをクリック(e.g. [大腸がん](http://www.genome.jp/kegg-bin/show_pathway?hsa05210)
+  - 赤字の遺伝子が疾患の病因遺伝子
+- プルダウンメニューから [Homo sapiens (human) + Disease/drug](http://www.genome.jp/kegg-bin/show_pathway?org_name=hsadd&mapno=05210&mapscale=&show_description=hide) を選択
+  - ピンクのボックスは何らかの疾患で病因遺伝子となっている遺伝子
+  - ライトブルーのボックスは何らかの疾患で医薬品のターゲットとなっている遺伝子
 
-#### サンプル・データをマッピングしてみよう  
-- http://www.genome.jp/kegg/tool/map_pathway2.html
-- KEGG Mapper
+#### サンプル・データをマッピングしてみよう
+- [KEGG Mapper](http://www.kegg.jp/kegg/mapper.html)
+- Pathway mapping tool の２番目の [Search&Color Pathway](http://www.kegg.jp/kegg/tool/map_pathway2.html) をクリック
+- テキストエリア右の Examples: を選択して Exec ボタンをクリック
+  - [配列 ID or 代謝産物 ID] 塗りつぶし色[,線の色]
+    - 配列 ID は KEGG gene ID, NCBI-GeneID, NCBI-ProteinID, UniProt ID
+    - 代謝産物 ID は KEGG Compound ID （C番号）のみ
+    - 線の色はオプション
+    - 色は16進数表記か基本的なカラーネームで記述
+- ヒットしたパスウェイのリストが表示、カッコの中はヒットした要素の数
+
+#### チンパンジーのサンプル (NCBI-GeneID) をマッピングしてみよう
+
+> 453039 red  　
+> 104003784 coral
+> 453645 gray,red  
+> 453565 blue,yellow  
+> 450453 #fbfb88  
+> 463861 #88ffbb  
+
+- テキストボックスに上の例をコピー＆ペースト
+- Search against: にチンパンジーの生物種コードを入れる
+  - コードがわからないので、org ボタンをクリック
+  - ポップアップウィンドウでに 種名を入力すると、下のボックスに候補が出るので、選択したああと Select をクリック
+  - チンパンジーのコード "ptr" が入力されていることを確認
+- ![kegg8](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg8.png)
+- Primry ID: で NCBI-GeneID を選択
+- Use uncolored diagrams のチェックボックスをチェック（生物種マップの緑色を消去）
+- Exec ボタンをクリック
+
+自由に色を塗れる反面、色の定義付けなどは自分で行う必要がある
+
+#### 数値データをマッピングしてみよう
+- [KEGG Mapper](http://www.kegg.jp/kegg/mapper.html)
+- Pathway mapping tool の３番目の [Color Pathway](http://www.kegg.jp/kegg/tool/map_pathway3.html) をクリック
+- 右のサンプル CML-COSMIC をダウンロード
+  - 中身は配列 ID と数値の対応リスト
+- Select KEGG pathway map: でパスウェイを指定（hsa05200)
+- Enter file name containing the data: でダウロードしたサンプルファイルを指定
+- File type: で Numerical value を選択
+- Exec ボタンをクリック
+- ![kegg9](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg9.png)
 
 #### KEGG データベースにはない新規生物種ゲノムをマッピングしてみよう  
 - BlastKOALA, ghostKOALA, KAAS
