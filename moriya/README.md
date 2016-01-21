@@ -313,6 +313,8 @@ XML で記述されていることが多い
 
 数値がグラデーションになってマッピングされる
 
+他の２つの Example: もマッピングしてみよう
+
 [Color Pathway WebGL](http://www.kegg.jp/kegg/tool/map_pathway3a.html) も使ってみよう  
 - Example: を使って、どんな絵になるか試してみましょう
 
@@ -344,7 +346,8 @@ BlastKOALA を使ったパスウェイへのマッピング
 - ![kegg11](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
 
     
-#### KEGG REST API を使ってみよう  
+#### KEGG REST API を使ってデータをダウンロードしてみよう
+KEGG では FTP などで一括したデータのダウンロードはできないが、便利な API が容易されている
 - http://www.kegg.jp/kegg/rest/keggapi.html
 - ヒトの遺伝子一覧
   - http://rest.kegg.jp/list/hsa
@@ -352,5 +355,9 @@ BlastKOALA を使ったパスウェイへのマッピング
   - http://rest.kegg.jp/list/pathway/hsa
 - ヒトの遺伝子一覧とパスウェイの対応
   - http://rest.kegg.jp/link/hsa/pathway
-
+- ヒトの遺伝子のID遺伝子変換(NCBI-GeneID)
+  - http://rest.kegg.jp/conv/ncbi-geneid/hsa
+- ヒトのKGML形式のパスウェイのダウンロード(hsa00010)
+  - http://rest.kegg.jp/get/hsa00010/kgml
+  
 ---
