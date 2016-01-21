@@ -349,6 +349,7 @@ BlastKOALA を使ったパスウェイへのマッピング
 #### KEGG REST API を使ってデータをダウンロードしてみよう
 KEGG では FTP などで一括したデータのダウンロードはできないが、便利な API が容易されている
 - http://www.kegg.jp/kegg/rest/keggapi.html
+
 - ヒトの遺伝子一覧
   - http://rest.kegg.jp/list/hsa
 - ヒトのパスウェイ一覧
@@ -359,5 +360,5 @@ KEGG では FTP などで一括したデータのダウンロードはできな�
   - http://rest.kegg.jp/conv/ncbi-geneid/hsa
 - ヒトのKGML形式のパスウェイのダウンロード(hsa00010)
   - http://rest.kegg.jp/get/hsa00010/kgml
-  
+
 ---
