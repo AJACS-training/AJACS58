@@ -20,6 +20,8 @@
 #### pathguid
 - http://www.pathguide.org/
 - パスウェイリソースのリスト約 550　(2013)
+  - Availability: 有料か無料か  
+  - Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどうか
 
 歴史的には代謝経路の表現から始まった  
 現在ではタンパク質間相互作用、シグナル伝達系、遺伝子制御、環境シグナルなど様々なものが含まれる
@@ -34,8 +36,10 @@
   - アミノ酸配列解析
   - その他
 
-Availability: 有料か無料か  
-Standards: 標準データ形式(BioPAX, SBML等)に準拠しているかどうか
+![pathway1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway1.png)
+
+可視化の際、一般的に代謝パスウェイでは代謝産物をノード、酵素反応をエッジとして表現し、制御系ではタンパク質や遺伝子、その他の小分子がノード、その関係性（活性化、抑制、リン酸化など）がエッジとして表現される
+
 
 #### パスウェイデータベースのデータ形式
 XML で記述されていることが多い  
@@ -58,7 +62,7 @@ XML で記述されていることが多い
   - 専門家が手作業で作成した文献ベースのデータ＋自動ツール
   - 代謝パスウェイのみ
 - 利用：アカデミックフリー
-- データ形式：BioPAX SBML
+- データ形式：BioPAX
 
 ![biocyc1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc1.png)
 
@@ -74,7 +78,7 @@ XML で記述されていることが多い
 
 #### 好きな生物のパスウェイを見てみよう
 - 好きな生物種をクリック（例： [EcoCyc](http://biocyc.org/ecocyc/index.shtml)）
-- 右上の検索ボックスで "glycolysis" や "tca" などの好きな単語を入力し、Quick Search ボタンをクリック
+- 右上の検索ボックスで "glycolysis" や "tca" などの生命現象関連の単語を入力し、Quick Search ボタンをクリック
 - ![biocyc6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc6.png)
 - パスウェイが存在する場合、リストが表示されるので、クリック
 - 代謝産物のパスウェイが表示される
@@ -129,7 +133,7 @@ XML で記述されていることが多い
 - ![reactome5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome5.png)
 
 #### パスウェイをハイライトさせてみよう  
-- マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis" や "tca" などの単語を入力すると、候補がリストアップされるので選択
+- マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis" や "tca" などの生命現象関連の単語を入力すると、候補がリストアップされるので選択
 - ![reactome3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome3.png)
 
 #### サンプル・データをマッピングしてみよう
@@ -163,7 +167,7 @@ XML で記述されていることが多い
 - 対象：ゲノムの決まった全生物種（真核生物、真性細菌、古細菌）4,000 種以上
   - 専門家が手作業で作成した文献ベースのデータ＋自動ツール
     - リファレンスパスウェイ：専門家が手作業で文献ベースから作成（BioCyc の Tier 1(MetaCyc)に相当）
-    - 種毎のパスウェイ（手動）：自動ツールで作成し、手作業で修正（BioCyc の Tier 2 に相当）
+    - 種毎のパスウェイ（手動）：自動ツールで作成し、手作業でキュレーション（BioCyc の Tier 2 に相当）
     - 種毎のパスウェイ（自動）：自動ツールで作成（Buicyc の Tier 3 に相当）
   - 代謝パスウェイ以外も
 - 利用：アカデミックフリー
@@ -180,24 +184,38 @@ XML で記述されていることが多い
   - [AJACS51](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2014_12_slide.pdf&refer=AJACS51)、[付録資料](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=KEGG_2013_11.pdf&refer=AJACS51)
   - [AJACS53](https://github.com/AJACS-training/AJACS53/tree/master/skwsm)
   - [AJACS54](http://motdb.dbcls.jp/?plugin=attach&pcmd=open&file=AJACS2015_muto_handout_.pdf&refer=AJACS54)
-  
-#### Overview マップを見てみよう  
-- http://www.kegg.jp/kegg/pathway.html
-- 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
-  - 右の [[KEGG Atlus](http://www.kegg.jp/kegg/atlas/?01100)] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
-- 左にモジュールのリスト（KEGG におけるパスウェイの小さい機能単位）、右にマップが表示
-- 機能単位毎にパスウェイを強調表示できる
 
-#### 生物種毎のグローバルマップを見てみよう  
-- プルダウンメニューから生物を選択し、Go をクリック
 
-#### 個別のパスウェイマップを見てみよう  
-- http://www.kegg.jp/kegg/pathway.html
-- 1.1 以下の好きなパスウェイをクリック
+#### 対象生物種を見てみよう
+- データベースのテーブルの下、[KEGG organisms](http://www.kegg.jp/kegg/catalog/org_list.html) をクリック
+  - KEGG では 3-4 文字の独自の生物種コードを使用している
+  - 生物種コードのリンクをクリックすると、種の情報のページに飛ぶ
+  - "Annotation" が manual -> 手作業（hsa等）、KOALA -> 自動ツール（pps等）
+  - ![kegg5](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg5.png)	
+
+- 生物種リスト上の [Draft](http://www.kegg.jp/kegg/catalog/org_list1.html) をクリック
+  - 真核生物のドラフトゲノムのリストで、ここは生物種コードではなくT番号で管理されている
+- [Meta](http://www.genome.jp/kegg/catalog/org_list3.html) はメタゲノム
+
+#### パスウェイマップを見てみよう  
+- [トップページ](http://www.kegg.jp) 上方の検索ボックスで "glycolysis" や "tca" などの生命現象関連の単語を入力し、Search ボタンをクリック
+- ![kegg4](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg4.png)
+- KEGG データベース全体でヒットしたエントリーが全てリストアップされ、KEGG PATHWAY にヒットがあれば、一番上に表示されるのでクリック
+- パスウェイの情報が表示されるエントリーページに移動するので、マップ画像をクリック
+  - この色のついていない白いパスウェイマップが、専門家が手作業で文献ベースから作成したリファレンスパスウェイ
+  - ボックスが遺伝子やタンパク質などの配列情報、丸が代謝産物、環境物質などの化合物
   - 右上の Help でそれぞれの図形の意味を見てみよう
 
-好きな生物のパスウェイを見てみよう  
-- 緑色の箱で、その生物の持つパスウェイを表現
+#### 好きな生物のパスウェイを見てみよう
+- プルダウンメニューから好きな生物を選択して Go をクリック
+  - 多すぎて選びにくい場合
+  - &lt; Sort below by alphabet &gt; を選択して Go をクリックでリストをソート
+  - &lt；Set personalized menu &gt; を選択して Go をクリックでポップアップウィンドウからリストの絞り込み
+  - ![kegg6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg6.png)
+    - ドラフトゲノム、メタゲノムはここからは選べないので、生物種リストのページから、種のページ、パスウェイリストへ移動
+    - ![kegg7](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg7.png)
+- 一部のボックスが緑色で塗られる、その生物の持つ遺伝子がマッピングされている
+
 
 #### リファレンスパスウェイと種毎のパスウェイの関係  
 
@@ -205,18 +223,23 @@ XML で記述されていることが多い
 
 ![kegg3](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg3.png)
 
-#### 対象生物種を見てみよう  
-- http://www.kegg.jp/kegg/catalog/org_list.html
-  - KEGG では 3-4 文字の独自の生物種コードを使用している
-  - データが手作業で修正されているか自動ツールで作成されているかはテーブルには情報が無い
-  - 生物種コードのリンクをクリックすると、種の情報のページに飛ぶ
-  - "Annotation" が manual -> 手作業（hsa等）、KOALA -> 自動ツール（pps等）
+
+#### Overview マップを見てみよう  
+- http://www.kegg.jp/kegg/pathway.html
+- 1.0 Global and overview maps の [Metabolic pathways](http://www.kegg.jp/kegg-bin/show_pathway?map01100) をクリック
+  - 右の [[KEGG Atlus](http://www.kegg.jp/kegg/atlas/?01100)] は Java で動くビューワーで、自由度が少し高い分、動作が重たい
+- 左にモジュールのリスト（KEGG におけるパスウェイの小さい機能単位）、右にマップが表示
+- 機能単位毎にパスウェイを強調表示できる
+
+#### 生物種毎の Overview マップを見てみよう  
+- プルダウンメニューから生物を選択し、Go をクリック
+
 
 #### サンプル・データをマッピングしてみよう  
 - http://www.genome.jp/kegg/tool/map_pathway2.html
 - KEGG Mapper
 
-#### KEGG データベースにはない新規遺伝子をマッピングしてみよう  
+#### KEGG データベースにはない新規生物種ゲノムをマッピングしてみよう  
 - BlastKOALA, ghostKOALA, KAAS
 
 #### KGML ファイルをダウンロードしてみよう  
