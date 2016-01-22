@@ -72,6 +72,11 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
 |Row1|Row1|
 |Row2|Row2|
 
+|header1|header2|header3|
+|:--|--:|:--:|
+|align left|align right|align center|
+|a|b|c|
+
 ## 研究現場で頻繁に使われるデータベースやツールを知る
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
