@@ -281,13 +281,15 @@ XML で記述されていることが多い
 - ヒットしたパスウェイのリストが表示、カッコの中はヒットした要素の数
 
 チンパンジーの遺伝子 (NCBI-GeneID) をマッピングしてみよう  
-例  
-> 453039 red  
-> 104003784 coral
-> 453645 gray,red  
-> 453565 blue,yellow  
-> 450453 #fbfb88  
-> 463861 #88ffbb  
+例
+'''
+453039 red  
+104003784 coral
+453645 gray,red  
+453565 blue,yellow  
+450453 #fbfb88  
+463861 #88ffbb  
+'''
 
 - テキストボックスに上の例をコピー＆ペースト
 - Search against: にチンパンジーの生物種コードを入れる
@@ -345,7 +347,26 @@ BlastKOALA を使ったパスウェイへのマッピング
   - Reconstruct Pathway から遺伝子がマッピングされたパスウェイを見ることができる
 - ![kegg11](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
 
-    
+遺伝子IDとK番号の対応表を保存しておけば、KEGG Mapper 使っていつでも KEGG PATHWAY へのマッピングができる  
+- [Reconstruct Pathway](http://www.genome.jp/kegg/tool/map_pathway.html)
+- Example の genelist.txt は１生物の対応表
+- genelist2.txt は４生物種の対応表で種間比較などに利用できる
+  - データ形式
+'''
+# organism1
+gene1	K02874
+gene7	K12864
+gene12 …
+# organism2
+gene2798	K11649
+gene2799	K12816
+gene2800 …
+# organism3
+gene5398	K03627
+gene5399	K02893
+gene5400	…
+'''
+
 #### KEGG REST API を使ってデータをダウンロードしてみよう
 KEGG では FTP などで一括したデータのダウンロードはできないが、便利な API が容易されている
 - http://www.kegg.jp/kegg/rest/keggapi.html
