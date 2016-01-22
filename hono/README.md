@@ -67,12 +67,9 @@ AJACS薩摩@鹿児島大学医学部 共通教育棟6階 マルチメディア�
   |大規模発現解析の予定はない|3 名|8 %|
 
 ----
-|Column|Column|
-|||
-|Row1|Row1|
-|Row2|Row2|
 
-|header1|header2|header3|
+
+|統合TVを知っていますか?|header2|header3|
 |:--|--:|:--:|
 |align left|align right|align center|
 |a|b|c|
