@@ -269,6 +269,18 @@ XML で記述されていることが多い
 
 ３種以上の比較も可能  
 
+
+#### 配列 ID を KEGG の遺伝子 ID に変換しよう
+遺伝子 ID やタンパク質 ID を使ってパスウェイにマッピングしたいが KEGG のウェブサイトでは KEGG 遺伝子 ID が必要な場合もある  
+  - [Link DB](http://www.genome.jp/linkdb/)
+    - データベースエントリー ID 間のリンク情報を収集したデータベース
+    - ID 変換にも利用可能
+  - 図の Genes をクリックすると、KEGG に登録されている遺伝子と関連のあるデータベースが表示される
+  - ![linkdb1](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-linkdb1.png)
+  - 表示されてたデータベースをクリックすると、下のフォームに選択したデータベースの内容が入るので、Download ボタンをクリックすると対応表がダウンロードできる
+  - ![linkdb2](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-linkdb2.png)
+
+
 #### サンプル・データをマッピングしてみよう
 - [KEGG Mapper](http://www.kegg.jp/kegg/mapper.html)
 - Pathway mapping tool の２番目の [Search&Color Pathway](http://www.kegg.jp/kegg/tool/map_pathway2.html) をクリック
@@ -281,7 +293,7 @@ XML で記述されていることが多い
 - ヒットしたパスウェイのリストが表示、カッコの中はヒットした要素の数
 
 チンパンジーの遺伝子 (NCBI-GeneID) をマッピングしてみよう  
-例
+- 例
 ```
 453039 red  
 104003784 coral
@@ -377,8 +389,9 @@ KEGG では FTP などで一括したデータのダウンロードはできな�
   - http://rest.kegg.jp/list/pathway/hsa
 - ヒトの遺伝子一覧とパスウェイの対応
   - http://rest.kegg.jp/link/hsa/pathway
-- ヒトの遺伝子のID遺伝子変換(NCBI-GeneID)
+- ヒトの遺伝子 ID 対応表 (KEGG 遺伝子 ID 対 NCBI-GeneID)
   - http://rest.kegg.jp/conv/ncbi-geneid/hsa
+  - NCBI-GeneID, NCBI-ProteinID, UniProt 以外は [LinkDB](http://www.genome.jp/linkdb/) で変換
 - ヒトのKGML形式のパスウェイのダウンロード(hsa00010)
   - http://rest.kegg.jp/get/hsa00010/kgml
 
