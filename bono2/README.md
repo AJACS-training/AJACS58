@@ -83,20 +83,20 @@ FASTQフォーマット、とも言う。
  - FAT32フォーマットでは扱えず、NTFSやexFAT
  - いわゆる「開く」ことが不可能
 
-FASTQファイルの実例(抜粋)
-
->SRR001356.1 2023DAAXX:5:1:123:563 length=33
->TGTCGGTCCAGCTCGGCCTTGGGCTCCGTTTTC
->+SRR001356.1 2023DAAXX:5:1:123:563 length=33
->-IIIIIIII8IIIIIIIIIII6IIIIIIIII9I
->@SRR001356.2 2023DAAXX:5:1:123:476 length=33
->TCTGAACCCGACTCCCTTTCGATCGGCCGCGGG
->+SRR001356.2 2023DAAXX:5:1:123:476 length=33
->IIIIIIIIIIIIIIIIIIIIIGIIIIIII-III
->@SRR001356.3 2023DAAXX:5:1:121:746 length=33
->GTGGCAGCGTTTTTGGGCCCGCCGCTTGCCGTT
->+SRR001356.3 2023DAAXX:5:1:121:746 length=33
->IIIII&IIIIIIIIIIIIIIIIHI1IIIIIIII
+```FASTQファイルの実例(抜粋)
+SRR001356.1 2023DAAXX:5:1:123:563 length=33
+TGTCGGTCCAGCTCGGCCTTGGGCTCCGTTTTC
++SRR001356.1 2023DAAXX:5:1:123:563 length=33
+-IIIIIIII8IIIIIIIIIII6IIIIIIIII9I
+@SRR001356.2 2023DAAXX:5:1:123:476 length=33
+TCTGAACCCGACTCCCTTTCGATCGGCCGCGGG
++SRR001356.2 2023DAAXX:5:1:123:476 length=33
+IIIIIIIIIIIIIIIIIIIIIGIIIIIII-III
+@SRR001356.3 2023DAAXX:5:1:121:746 length=33
+GTGGCAGCGTTTTTGGGCCCGCCGCTTGCCGTT
++SRR001356.3 2023DAAXX:5:1:121:746 length=33
+IIIII&IIIIIIIIIIIIIIIIHI1IIIIIIII
+```
 
 シーケンサーの種類に関係なく、データ解析はFASTQ形式のファイルから、マッピングかアセンブルするのが基本。RNA-seqやChIP-seqというのは配列解読の応用の話で、後述します。
 
@@ -125,10 +125,13 @@ UCSC Genome Browser上に出ているTrackは、このBED形式のデータが�
 
 ## よく用いられるNGSの応用
 塩基配列情報が関係する研究分野、すべてに応用されています。以下の様な分野によく使われています。
+
+
 1. ゲノムの解析(Exome, WGBS(Whole Genome Bisulfite Sequence))
 2. トランスクリプトームの解析(RNA-seq)
 3. DNA結合タンパク質の結合配列の解析(ChIP-seq)
 4. メタゲノムの解析
+
 
 [![leading_authors](http://leading.lifesciencedb.jp/wordpress/wp-content/uploads/2015/05/Bono-4.e008-Fig.1.jpg)](http://dx.doi.org/10.7875/leading.author.4.e008)
 
@@ -140,6 +143,7 @@ UCSC Genome Browser上に出ているTrackは、このBED形式のデータが�
  - Transcriptome sequencing(transcriptを配列解読して出現回数を発現強度とする解析)の意味であることが大半
 
 #### ごく簡単な解析の流れ
+
 1. Reference genome へ transcript を mapping
 2. Splice alignment (Bowtie & Tophat)
 3. (既知の)転写単位ごとの発現情報化(cufflinks)
@@ -206,6 +210,7 @@ SRAからデータを探すときに便利なツールを我々DBCLSで作成し
 [![https://gyazo.com/e6f63c8b1380231d47063ed74bed5605](http://i.gyazo.com/e6f63c8b1380231d47063ed74bed5605.png)](https://gyazo.com/e6f63c8b1380231d47063ed74bed5605)
 
 【実習1】DBCLS SRA で興味あるNGSデータを探す
+
 1. Trends&Search SRA dataで for more detailsをクリック → 最新の統計情報を見てみましょう
 2. Free Keywordで検索してみましょう。例えば``hypoxia``
 3. Full Publication Listをクリックして見ましょう
@@ -213,10 +218,12 @@ SRAからデータを探すときに便利なツールを我々DBCLSで作成し
 以上のように、DBCLS SRAでは各データに付与された実験手法や実験条件といったメタデータ(「データ」のデータ)に対して検索する手段を提供しています。逆に、メタデータがきっちりとついていないとそのデータは **無いのと同じ** ということになります。この種のデータは誰かが親切に付けてくれるものではなく、上述のDDBJ SRAに登録するときにそのデータを出した研究者が付けるべきものです。
 
 【実習2】マイクロアレイデータも含めた遺伝子発現データの検索に[AOE(All of gene Expression)](http://aoe.dbcls.jp/)が便利です。
-- ヒトをクリック、年数をドラッグ
-- Illumina+others => NGSのみのデータ
-- ``hypoxia``で検索
-- [【参考】AOEを使って遺伝子発現データベースの統計を見ながら検索する(統合TV)](http://doi.org/10.7875/togotv.2014.096)
+
+1. ヒトをクリック、年数をドラッグ
+2. Illumina+others => NGSのみのデータ
+3.  ``hypoxia``で検索
+
+[【参考】AOEを使って遺伝子発現データベースの統計を見ながら検索する(統合TV)](http://doi.org/10.7875/togotv.2014.096)
 
 実は、自分で生データを取得して配列から解析しなくてもNGSデータは使えます。すでに解析済みのデータを使うやり方です。それらの手段を以下に紹介します。
 
