@@ -401,6 +401,37 @@ gene5399	K02893
 gene5400	…
 ```
 
+#### せっかくなので、[小野さんの講習](https://github.com/AJACS-training/AJACS58/tree/master/hono)の[マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS58/master/hono/secret_list.txt)をマッピングしてみよう  
+
+- プローブIDを KEGG で扱える ID 似」変換する
+  - [DAVID](https://david.ncifcrf.gov/home.jsp) で遺伝子リストを読み込み（[小野さんの資料](https://github.com/AJACS-training/AJACS58/tree/master/hono)参照）
+  - 上のメニューの Shoutcut to DAVID Tools の Gene ID Conversion をクリック
+  - Option 1 の変換 ID を ENTERZ_GENE_ID (NCBI GeneID) に変更
+  - Submit to Conversion Tool ボタンをクリック
+  - 変換リストが表示される
+  - 右上の Download File を右クリックして、名前をつけて保存 ("gene_conv.txt")
+
+- タブ切りファイルの第二カラムを抜き出す
+
+Windows のコマンドプロンプト
+```
+> cd Downloads
+> FOR /F "tokens=2" %i IN (gene_conv.txt) DO @ECHO %i >> gene_id.txt
+```
+
+Linux, Mac OS X のターミナル
+```
+# cut -f2 gene_conv.txt > gene_id.txt
+```
+
+できない方は[変換済みファイル](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/gene_id.txt)  
+
+- [KEGG Mapper](http://www.genome.jp/kegg/tool/map_pathway2.html) でマッピング
+  - Arabidopsis thaliana だったので、それに合わせて Search Against を選択
+  - NCBi-GeneID に変換したので Primary ID を変更
+  - コピペ、もしくはアップロード
+  - Exec ボタンをクリック
+
 #### KEGG REST API を使ってデータをダウンロードしてみよう
 KEGG では FTP などで一括したデータのダウンロードはできないが、便利な API が容易されている
 - http://www.kegg.jp/kegg/rest/keggapi.html
