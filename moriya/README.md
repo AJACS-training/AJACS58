@@ -413,7 +413,7 @@ gene5400	…
 
 - タブ切りファイルの第二カラムを抜き出す
 
-Windows のコマンドプロンプト
+Windows のコマンドプロンプト（講習会会場の場合）
 ```
 > cd Downloads
 > FOR /F "tokens=2" %i IN (gene_conv.txt) DO @ECHO %i >> gene_id.txt
@@ -421,6 +421,7 @@ Windows のコマンドプロンプト
 
 Linux, Mac OS X のターミナル
 ```
+# ファイルのあるディレクトリへ移動
 # cut -f2 gene_conv.txt > gene_id.txt
 ```
 
