@@ -146,7 +146,7 @@ XML で記述されていることが多い
 - ウェブサイト：http://www.reactome.org/
 - 開発：EMBLE-EBI 他
 - 対象：ヒトを中心に脊椎動物、酵母、植物、19 種
-  - 専門家が手作業で作成した文献ベースのデータ
+  - 専門家が手作業で作成した文献ベースのデータ（ヒト）
   - 代謝パスウェイ、シグナル伝達系、他
 - 利用：フリー
 - データ形式：BioPAX, SBML
@@ -176,6 +176,10 @@ XML で記述されていることが多い
   - ID と数値のリストの場合は発現解析
     - 再生ボタンで、複数のカラムのデータを連続表示
 - ![reactome6](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome6.png)
+
+#### 種間比較をしてみよう
+- Analysis tools から Species Comparison を選択
+- ヒトとその他の生物のパスウェイ比較が可能
 
 詳細は [Reactome User's Guide](http://wiki.reactome.org/index.php/Usersguide) を参照  
 
@@ -373,7 +377,7 @@ BlastKOALA を使ったパスウェイへのマッピング
   - 新たに開いたウィンドウで、Buchnera を探し、Taxonomy番号をクリック
 - ![kegg10](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg10.png)
 - Exec ボタンをクリック
-  - 数分待つ
+  - 数分待つ（[講習会用結果例](http://www.kegg.jp/kegg-bin/blastkoala_result?id=89320edbab9f63445b34881655fc019b4531d61f&passwd=FKPNLx&mode=mapper)）
   - Reconstruct Pathway から遺伝子がマッピングされたパスウェイを見ることができる
 - ![kegg11](https://github.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
 
