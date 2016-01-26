@@ -403,9 +403,9 @@ gene5400	…
 
 #### せっかくなので、[小野さんの講習](https://github.com/AJACS-training/AJACS58/tree/master/hono)の[マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS58/master/hono/secret_list.txt)をマッピングしてみよう  
 
-- プローブIDを KEGG で扱える ID 似」変換する
+- プローブIDを KEGG で扱える ID に変換する
   - [DAVID](https://david.ncifcrf.gov/home.jsp) で遺伝子リストを読み込み（[小野さんの資料](https://github.com/AJACS-training/AJACS58/tree/master/hono)参照）
-  - 上のメニューの Shoutcut to DAVID Tools の Gene ID Conversion をクリック
+  - 上のメニューの Shortcut to DAVID Tools の Gene ID Conversion をクリック
   - Option 1 の変換 ID を ENTERZ_GENE_ID (NCBI GeneID) に変更
   - Submit to Conversion Tool ボタンをクリック
   - 変換リストが表示される
