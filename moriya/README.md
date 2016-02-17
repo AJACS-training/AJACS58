@@ -38,7 +38,7 @@
 タンパク質や化合物等の分子間相互作用のネットワークをデータベース化、視覚化したもの
 
 イメージ (KEGG)
-![pathway](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway.png)
+![pathway](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-pathway.png)
 
 - 可視化することで生命現象を理解しやすくなる  
 - データベース化することで網羅的に扱えるようになる
@@ -67,7 +67,7 @@
   - アミノ酸配列解析
   - その他
 
-![pathway1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-pathway1.png)
+![pathway1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-pathway1.png)
 
 可視化の際、一般的に代謝パスウェイでは代謝産物をノード、酵素反応をエッジとして表現し、制御系ではタンパク質や遺伝子、その他の小分子がノード、その関係性（活性化、抑制、リン酸化など）がエッジとして表現される
 
@@ -96,7 +96,7 @@ XML で記述されていることが多い
 - 利用：アカデミックフリー
 - データ形式：BioPAX
 
-![biocyc1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc1.png)
+![biocyc1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc1.png)
 
 
 #### 対象生物種を見てみよう  
@@ -111,18 +111,18 @@ XML で記述されていることが多い
 #### 好きな生物のパスウェイを見てみよう
 - 好きな生物種をクリック（例： [EcoCyc](http://biocyc.org/ecocyc/index.shtml)）
 - 右上の検索ボックスで "glycolysis" や "tca" などの生命現象関連の単語を入力し、Quick Search ボタンをクリック
-- ![biocyc6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc6.png)
+- ![biocyc6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc6.png)
 - パスウェイが存在する場合、リストが表示されるので、クリック
 - 代謝産物のパスウェイが表示される
 - More Detail ボタンをクリックすると、酵素の情報が追加され、もう一度 More Detail ボタンをクリックすると代謝産物の構造情報が追加される
 - 右の Options メニューから、表示のカスタマイズやダウンロードが可能
-- ![biocyc3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc3.png)
+- ![biocyc3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc3.png)
 
 
 #### 種間比較をしてみよう
 - 右の Option メニューの [Species Comparison](http://ecocyc.org/compare-frame-in-orgs?type=PATHWAY&object=GLYCOLYSIS&initial-orgs=(ECOLI)&detail-level=1) をクリック
 - 比較する種の選択画面が表示されるので、比較したい好きな種を入力し、OK をクリック
-- ![biocyc7](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc7.png)
+- ![biocyc7](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc7.png)
 - パスウェイや遺伝子、オペロン構造などが比較できる
 
 
@@ -134,10 +134,10 @@ XML で記述されていることが多い
 ### サンプル・データをマッピングしてみよう  
 - 右のメニューの Overlay Experimental Data ＞ Upload Data from File
 - 出てきた入力フォームのファイルアップロード部のすぐ下の (or "paste data" directly into form) のリンクをクリック
-- ![biocyc4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc4.png)
+- ![biocyc4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc4.png)
 - テキストエリアに切り替わるので、テキストエリア右上の Gene example をクリックすると、サンプル・データが入る
 - データのカラム（1〜3）を入力して Submit ボタンをクリック
-- ![biocyc5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-biocyc5.png)
+- ![biocyc5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-biocyc5.png)
 
 詳細は [BioCyc User's guide](http://biocyc.org/PToolsWebsiteHowto.shtml) を参照
 
@@ -151,31 +151,31 @@ XML で記述されていることが多い
 - 利用：フリー
 - データ形式：BioPAX, SBML
 
-![reactome1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome1.png)
+![reactome1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome1.png)
 
 #### 好きな生物のパスウェイを見てみよう  
 - [Browse Pathways](http://www.reactome.org/PathwayBrowser/) ボタンをクリック
 - 初期画面はヒトのパスウェイなので、好きな種を選択
-- ![reactome2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome2.png)
+- ![reactome2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome2.png)
 - 左のパスウェイのリスト、右のパスウェイマップが連動
   - 下層になると、ダイヤグラムが表示される
   - Reactome には代謝パスウェイの他に制御系も含むため、ノードとエッジの関係が複数ある
-- ![reactome5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome5.png)
+- ![reactome5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome5.png)
 
 #### パスウェイをハイライトさせてみよう  
 - マップ左上の虫眼鏡アイコンをクリックして、 "glycolysis" や "tca" などの生命現象関連の単語を入力すると、候補がリストアップされるので選択
-- ![reactome3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome3.png)
+- ![reactome3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome3.png)
 
 #### サンプル・データをマッピングしてみよう
 - サンプルがヒトしか無いので、ヒトのパスウェイに移動
 - 上、右側の Analysis: アイコンをクリック
 - ファイルアップロード部のすぐ下の click here to paste your data... をクリック
-- ![reactome4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome4.png)
+- ![reactome4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome4.png)
 - 右のサンプルをクリックして GO ボタンをクリック
   - ID リストの場合は Over-representation 解析 (ORA）, Enrichment 解析
   - ID と数値のリストの場合は発現解析
     - 再生ボタンで、複数のカラムのデータを連続表示
-- ![reactome6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-reactome6.png)
+- ![reactome6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-reactome6.png)
 
 #### 種間比較をしてみよう
 - Analysis tools から Species Comparison を選択
@@ -185,7 +185,7 @@ XML で記述されていることが多い
 
 他のReactome
 - http://www.reactome.org/pages/about/other-reactomes/
-  
+
 ----
 ## KEGG PATHWAY
 - ウェブサイト：http://www.kegg.jp/
@@ -201,7 +201,7 @@ XML で記述されていることが多い
   - [KCPAVS KEGG-XML converter](http://www.kcpavs.cidms.org/kcpavs-features/tools-and-utilities/kegg-xml-converter) などで代謝パスウェイ、シグナル伝達などの多くのパスウェイを標準形式 に変換可能
   - [KEGGscape] (http://apps.cytoscape.org/apps/keggscape) でネットワーク可視化ソフト Cytoscape に読み込み可能
 
-![kegg1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg1.png)
+![kegg1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg1.png)
 
 #### KEGG はデータベースの集合
 - [KEGG2](http://www.kegg.jp/kegg/kegg2.html) をクリック
@@ -218,7 +218,7 @@ XML で記述されていることが多い
   - KEGG では 3-4 文字の独自の生物種コードを使用している
   - 生物種コードのリンクをクリックすると、種の情報のページに飛ぶ
   - "Annotation" が manual -> 手作業（hsa等）、KOALA -> 自動ツール（pps等）
-  - ![kegg5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg5.png)	
+  - ![kegg5](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg5.png)
 
 - 生物種リスト上の [Draft](http://www.kegg.jp/kegg/catalog/org_list1.html) をクリック
   - 真核生物のドラフトゲノムのリストで、ここは生物種コードではなくT番号で管理されている
@@ -226,7 +226,7 @@ XML で記述されていることが多い
 
 #### パスウェイマップを見てみよう  
 - [トップページ](http://www.kegg.jp) 上方の検索ボックスで "glycolysis" や "tca" などの生命現象関連の単語を入力し、Search ボタンをクリック
-- ![kegg4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg4.png)
+- ![kegg4](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg4.png)
 - KEGG データベース全体でヒットしたエントリーが全てリストアップされ、KEGG PATHWAY にヒットがあれば、一番上に表示されるのでクリック
 - パスウェイの情報が表示されるエントリーページに移動するので、マップ画像をクリック
   - この色のついていない白いパスウェイマップが、専門家が手作業で文献ベースから作成したリファレンスパスウェイ
@@ -238,17 +238,17 @@ XML で記述されていることが多い
   - 多すぎて選びにくい場合
   - &lt; Sort below by alphabet &gt; を選択して Go をクリックでリストをソート
   - &lt; Set personalized menu &gt; を選択して Go をクリックでポップアップウィンドウからリストの絞り込み
-  - ![kegg6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg6.png)
+  - ![kegg6](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg6.png)
     - ドラフトゲノム、メタゲノムはここからは選べないので、生物種リストのページから、種のページ、パスウェイリストへ移動
-    - ![kegg7](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg7.png)
+    - ![kegg7](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg7.png)
 - 一部のボックスが緑色で塗られる、その生物の持つ遺伝子がマッピングされている
 
 
 #### リファレンスパスウェイと種毎のパスウェイの関係  
 
-![kegg2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg2.png)
+![kegg2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg2.png)
 
-![kegg3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg3.png)
+![kegg3](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg3.png)
 
 
 #### Overview マップを見てみよう  
@@ -276,7 +276,7 @@ XML で記述されていることが多い
 - KEGG for pangenomes or genome comparison/combination のテキストボックスに "eco ecs" と入力して Go をクリック
   - eco：非病原性大腸菌 k-12
   - ecs：病原性大腸菌 O157
-- ![kegg12](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg12.png)
+- ![kegg12](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg12.png)
 - 上のメニューの [Pathway map](http://www.genome.jp/kegg-bin/show_organism?menu_type=pathway_maps&orgs=eco%20ecs) をクリック
 - 好きなパスウェイをクリック
   - 前者が持っている遺伝子が緑、後者が持っている遺伝子がピンクで表示
@@ -298,9 +298,9 @@ XML で記述されていることが多い
     - データベースエントリー ID 間のリンク情報を収集したデータベース
     - ID 変換にも利用可能
   - 図の Genes をクリックすると、KEGG に登録されている遺伝子と関連のあるデータベースが表示される
-  - ![linkdb1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-linkdb1.png)
+  - ![linkdb1](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-linkdb1.png)
   - 表示されてたデータベースをクリックすると、下のフォームに選択したデータベースの内容が入るので、Download ボタンをクリックすると対応表がダウンロードできる
-  - ![linkdb2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-linkdb2.png)
+  - ![linkdb2](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-linkdb2.png)
 
 
 #### サンプル・データをマッピングしてみよう
@@ -330,7 +330,7 @@ XML で記述されていることが多い
   - コードがわからないので、org ボタンをクリック
   - ポップアップウィンドウでに 種名を入力すると、下のボックスに候補が出るので、選択したああと Select をクリック
   - チンパンジーのコード "ptr" が入力されていることを確認
-- ![kegg8](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg8.png)
+- ![kegg8](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg8.png)
 - Primry ID: で NCBI-GeneID を選択
 - Use uncolored diagrams のチェックボックスをチェック（生物種マップの緑色を消去）
 - Exec ボタンをクリック
@@ -345,7 +345,7 @@ XML で記述されていることが多い
 - Enter file name containing the data: でダウロードしたサンプルファイルを指定
 - File type: で Numerical value を選択
 - Exec ボタンをクリック
-- ![kegg9](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg9.png)
+- ![kegg9](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg9.png)
 
 数値がグラデーションになってマッピングされる
 
@@ -362,12 +362,12 @@ KEGG に登録されている配列データと類似性を計算し、自動で
     - GhostX は BLAST より精度は劣るが 100 倍早い					 
     - GhostZ は GhostX より精度は劣るが２倍早い
   - 種間で両方向ベストヒットを利用して遺伝子機能を推定（片方向も可能）
-  - ![kegg13](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg13.png)
+  - ![kegg13](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg13.png)
 
 - [BlastKOALA](http://www.kegg.jp/blastkoala/), [GhostKOALA](http://www.kegg.jp/ghostkoala/)
   - 配列類似性の計算は BLAST, GhostX ベース
   - クエリーからデータベースへの片方向の計算なのと、データベースを圧縮しているぶん KAAS より早い
-  
+
 BlastKOALA を使ったパスウェイへのマッピング
 - [Annotate Sequence by BlastKOALA](http://www.kegg.jp/kegg/tool/annotate_sequence.html)
 - Exapmle: の sequence.txt をコピー＆ペースト、もすくはダウンロードしてファイルを選択
@@ -375,11 +375,11 @@ BlastKOALA を使ったパスウェイへのマッピング
 - Family/Genus ボタンをクリック
   - サンプルが Buchnera の仲間なので、KEGG の Buchnera データを使う
   - 新たに開いたウィンドウで、Buchnera を探し、Taxonomy番号をクリック
-- ![kegg10](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg10.png)
+- ![kegg10](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg10.png)
 - Exec ボタンをクリック
   - 数分待つ（[講習会用結果例](http://www.kegg.jp/kegg-bin/blastkoala_result?id=89320edbab9f63445b34881655fc019b4531d61f&passwd=FKPNLx&mode=mapper)）
   - Reconstruct Pathway から遺伝子がマッピングされたパスウェイを見ることができる
-- ![kegg11](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/blob/master/moriya/images/a58-kegg11.png)
+- ![kegg11](https://raw.githubusercontent.com/moriya-dbcls/AJACS58/master/moriya/images/a58-kegg11.png)
 
 遺伝子IDとK番号の対応表を保存しておけば、KEGG Mapper 使っていつでも KEGG PATHWAY へのマッピングができる  
 - [Reconstruct Pathway](http://www.genome.jp/kegg/tool/map_pathway.html)
